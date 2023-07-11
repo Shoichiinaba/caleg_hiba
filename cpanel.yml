@@ -1,0 +1,10 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kina3126/public_html/hiba.kanpa.co.id
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R lib $DEPLOYPATH
+    - /bin/cp -R image $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp composer.lock $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
