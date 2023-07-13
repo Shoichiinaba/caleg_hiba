@@ -7,4 +7,4 @@ deployment:
     - /bin/cp -R image $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp composer.lock $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
