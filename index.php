@@ -133,14 +133,14 @@
                         style="width: 35px; height: 38px; padding-bottom: 7px;" /> Golkar</h2>
             </a>
             <div class="navbar-nav me-auto py-0">
+                <a href="#testimonial" class="nav-item nav-link">Testimoni</a>
                 <a href="#skill" class="nav-item nav-link">Visi Misi</a>
                 <a href="#team" class="nav-item nav-link">Artikel</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <a href="#contact" class="nav-item nav-link">Dukungan</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
-
 
     <!-- Header Start -->
     <div class="container-fluid bg-light my-6 mt-0" id="home">
@@ -244,40 +244,14 @@
     <!-- About End -->
 
     <!-- Program kerja -->
-    <div class="container-fluid bg-light my-5 py-6" id="service">
+    <div class="container-fluid bg-light my-5 py-3" id="service">
         <div class="container">
-            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-3 mb-3 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
                     <h1 class="display-5 mb-0">Program Kerja</h1>
                 </div>
             </div>
             <div class="row">
-                <!-- <div class="col-lg-3 col-md-6 mt-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="card p-3">
-                        <a href="">
-                            <div class="d-md-block d-none">
-                                <figure class="zoom-effect">
-                                    <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-4.jpg"
-                                        class="card-img-top" alt="GEMA HIDUP">
-                                </figure>
-                                <h5 class="mt-4 text-black">GEMA HIDUP</h5>
-                                Program GEMA HIDUP bertujuan untuk memupuk kemandirian dan keberdayaan generasi muda
-                                melalui pendidikan.
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="d-md-block d-none">
-                                <figure class="zoom-effect">
-                                    <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-2.jpg "
-                                        class="card-img-top" alt="PROLINS (Program Lingkungan Sehat)">
-                                </figure>
-                                <h5 class="mt-4 text-black">GEMA HIDUP</h5>
-                                Program GEMA HIDUP bertujuan untuk memupuk kemandirian dan keberdayaan generasi muda
-                                melalui pendidikan.
-                            </div>
-                        </a>
-                    </div>
-                </div> -->
                 <div class="col-lg-3 col-md-6 mt-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="card p-3">
                         <a href="">
@@ -419,86 +393,10 @@
     </div>
     <!-- akhir program kerja -->
 
-    <!-- Testimonial Start -->
-    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
-        <div class="container-fluid py-5">
-            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 d-none d-lg-block">
-                    <div class="testimonial-left h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.png" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
-                                    src="img/testimonial-1.png" alt="">
-                                <div class="testimonial-icon">
-                                    <i class="fa fa-quote-left text-primary"></i>
-                                </div>
-                            </div>
-                            <p class="fs-5 fst-italic">Aku pilih dia karena dia punya integritas yang ngga diragukan
-                                lagi, komitmennya bagus, dan dia juga punya gaya kepemimpinan yang keren. Jadi, semoga
-                                ada perubahan yang positif kalau dia jadi wakil kita!</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Oktadha</h5>
-                            <span>Hebat</span>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
-                                    src="img/testimonial-2.jpg" alt="">
-                                <div class="testimonial-icon">
-                                    <i class="fa fa-quote-left text-primary"></i>
-                                </div>
-                            </div>
-                            <p class="fs-5 fst-italic">Saya mendukung Demo Caleg 43 jadi anggota legislatif karena lihat
-                                hasil kerja beliau yang sepertinya mengutamakan kepentingan masyarakat. Semoga dia bisa
-                                buktikan janjinya dan bawa perubahan positif buat daerah kita. Saya yakin Demo Caleg 43
-                                bisa dipercaya dan diandalkan buat mewakili aspirasi kita sebagai rakyat.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Agus</h5>
-                            <span>Mantap</span>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
-                                    src="img/testimonial-3.png" alt="">
-                                <div class="testimonial-icon">
-                                    <i class="fa fa-quote-left text-primary"></i>
-                                </div>
-                            </div>
-                            <p class="fs-5 fst-italic">Abis tau sama Demo Caleg 04 dan liat prestasinya, aku mantep
-                                banget dan yakin kalo dia nih caleg yang peduli sama rakyat dan siap berjuang buat kita
-                                semua. Aku dukung dia karena yakin kualitas kepemimpinannya oke, komitmen dan
-                                integritasnya juga tinggi. Mudah-mudahan bisa bawa perubahan positif buat daerah kita
-                                deh!</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Sandi</h5>
-                            <span>Lanjutkan</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-none d-lg-block">
-                    <div class="testimonial-right h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.png" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
     <!-- Projects Start -->
-    <div class="container-xxl py-6 pt-5" id="project">
+    <div class="container-xxl py-3 pt-1" id="project">
         <div class="container">
-            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-3 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
                     <h1 class="display-5 mb-0">Gallery</h1>
                 </div>
@@ -581,6 +479,82 @@
         </div>
     </div>
     <!-- Projects End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light py-3 my-3" id="testimonial">
+        <div class="container-fluid py-3">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                                    src="img/testimonial-1.png" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Aku pilih dia karena dia punya integritas yang ngga diragukan
+                                lagi, komitmennya bagus, dan dia juga punya gaya kepemimpinan yang keren. Jadi, semoga
+                                ada perubahan yang positif kalau dia jadi wakil kita!</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Oktadha</h5>
+                            <span>Hebat</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                                    src="img/testimonial-2.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Saya mendukung Demo Caleg 43 jadi anggota legislatif karena lihat
+                                hasil kerja beliau yang sepertinya mengutamakan kepentingan masyarakat. Semoga dia bisa
+                                buktikan janjinya dan bawa perubahan positif buat daerah kita. Saya yakin Demo Caleg 43
+                                bisa dipercaya dan diandalkan buat mewakili aspirasi kita sebagai rakyat.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Agus</h5>
+                            <span>Mantap</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                                    src="img/testimonial-3.png" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Abis tau sama Demo Caleg 04 dan liat prestasinya, aku mantep
+                                banget dan yakin kalo dia nih caleg yang peduli sama rakyat dan siap berjuang buat kita
+                                semua. Aku dukung dia karena yakin kualitas kepemimpinannya oke, komitmen dan
+                                integritasnya juga tinggi. Mudah-mudahan bisa bawa perubahan positif buat daerah kita
+                                deh!</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Sandi</h5>
+                            <span>Lanjutkan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
 
     <!-- Expertise Start -->
     <div class="container-xxl py-6 pb-5" id="skill">
