@@ -6,10 +6,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message = $_POST["message"];
 
     // Konfigurasi email
-    $to = "hiba@kanpa.co.id"; // Alamat email penerima
-    $from = "your-email@example.com"; // Alamat email pengirim
+    $to = "hiba@kanpa.co.id";
+    $from = "your-email@example.com";
     $headers = "From: $from";
     $body = "Name: $name\nEmail: $email\n\n$message";
+
+    // Mengatur konfigurasi SMTP
+    ini_set('SMTP', 'kanpa.co.id');
+    ini_set('smtp_port', 465);
+    ini_set('sendmail_from', $from);
 
     // Kirim email
     if (mail($to, $subject, $body, $headers)) {

@@ -14,7 +14,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -30,11 +31,80 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+    .zoom-effect {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .zoom-effect::after {
+        content: '';
+        display: block;
+        padding-top: 60%;
+    }
+
+    .zoom-effect img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        transition: transform 0.3s;
+    }
+
+    .zoom-effect:hover img {
+        transform: scale(1.1);
+    }
+
+    .team-item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .image-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.3);
+        /* Warna putih transparan */
+        z-index: 1;
+    }
+
+    .team-item img {
+        z-index: 2;
+    }
+
+    .team-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        z-index: 3;
+    }
+
+    .image-label {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 2;
+    }
+
+    .image-label h5 {
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        text-align: center;
+        color: orange;
+    }
+    </style>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -43,7 +113,8 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-black navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <nav class="navbar navbar-expand-lg bg-black navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="text-primary fw-bold m-0">GOLKAR</h1>
         </a>
@@ -57,12 +128,13 @@
                 <a href="#service" class="nav-item nav-link">Program Kerja</a>
                 <a href="#project" class="nav-item nav-link">Gallery</a>
             </div>
-            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
-                <h2 class="text-primary fw-bold m-0">  <img src="img/golkar.png" rel="icon" type="image/png" style="width: 35px; height: 38px; padding-bottom: 7px;" /> Golkar</h2>
+            <a href="index.php" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h2 class="text-primary fw-bold m-0"> <img src="img/golkar.png" rel="icon" type="image/png"
+                        style="width: 35px; height: 38px; padding-bottom: 7px;" /> Golkar</h2>
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="#skill" class="nav-item nav-link">Visi Misi</a>
-                <a href="#team" class="nav-item nav-link">Relawan</a>
+                <a href="#team" class="nav-item nav-link">Artikel</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -78,9 +150,13 @@
                     <h3 class=" mb-3">Saya</h3>
                     <h1 class="display-3 mb-3">Hiba Al Kanzu</h1>
                     <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">Kader DPRD Sukoharjo Dari Partai GOLKAR</div>
+                    <div class="typed-text d-none">Kader DPRD Klaten Dari Partai GOLKAR</div>
                     <div class="d-flex align-items-center pt-5">
-                        <a href="" class="btn btn-secondary py-3 px-4 me-5">Hiba Al Kanzu <p> Nomer Urut</p> <p><h1>04</h1></p></a>
+                        <a href="" class="btn btn-secondary py-3 px-4 me-5">Hiba Al Kanzu <p> Nomer Urut</p>
+                            <p>
+                                <h1>04</h1>
+                            </p>
+                        </a>
                         <button type="button" class="btn-play btn-secondary" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
@@ -98,7 +174,8 @@
 
 
     <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
                 <div class="modal-header">
@@ -108,8 +185,8 @@
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -130,11 +207,15 @@
                         </div>
                         <h3 class="lh-base mb-0">Siap Berkarya Untuk Indonesia</h3>
                     </div>
-                    <p class="mb-4 mt-1">Hiba Al Kanzu lahir dan besar di Kota Ungaran Kab. Semarang, dengan latar belakang sebagai seorang pengusaha, beliau sangat peduli kepada rakyat kecil yang masih hidup dengan gaji dibawah UMR. Motivasi ini yang mendorong Hiba Al Kanzu untuk memperjuangkan permasalahan ini di kantor dewan rakyat.</p>
+                    <p class="mb-4 mt-1">Hiba Al Kanzu lahir dan besar di Kota Ungaran Kab. Semarang, dengan latar
+                        belakang sebagai seorang pengusaha, beliau sangat peduli kepada rakyat kecil yang masih hidup
+                        dengan gaji dibawah UMR. Motivasi ini yang mendorong Hiba Al Kanzu untuk memperjuangkan
+                        permasalahan ini di kantor dewan rakyat.</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Berakhlak dan Santun</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Empati Pada Rakyat</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Pengabdian pada Rakyat</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Perjuangkan hak rakyat kecil dan UMKM</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Perjuangkan hak rakyat kecil
+                        dan UMKM</p>
                     <a class="btn btn-secondary py-3 px-5 mt-3" href="">Read More</a>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -162,7 +243,7 @@
     </div>
     <!-- About End -->
 
-    <!-- Service Start -->
+    <!-- Program kerja -->
     <div class="container-fluid bg-light my-5 py-6" id="service">
         <div class="container">
             <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -170,59 +251,131 @@
                     <h1 class="display-5 mb-0">Program Kerja</h1>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                        <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-school fa-2x text-dark"></i>
-                        </div>
-                        <div class="ms-sm-4">
-                            <h4 class="mb-3">Pendidikan</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
-                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
-                        </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mt-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card p-3">
+                        <a href="">
+                            <div class="d-md-block d-none">
+                                <figure class="zoom-effect">
+                                    <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-4.jpg"
+                                        class="card-img-top" alt="GEMA HIDUP">
+                                </figure>
+                                <h5 class="mt-4 text-black">GEMA HIDUP</h5>
+                                Program GEMA HIDUP bertujuan untuk memupuk kemandirian dan keberdayaan generasi muda
+                                melalui pendidikan.
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                        <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-anchor fa-2x text-dark"></i>
-                        </div>
-                        <div class="ms-sm-4">
-                            <h4 class="mb-3">Dunia Kerja</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
-                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
-                        </div>
+                <div class="col-lg-3 col-md-6 mt-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card p-3">
+                        <a href="">
+                            <div class="d-md-none">
+                                <div class="row align-items-center">
+                                    <div class="col-4">
+                                        <figure class="zoom-effect">
+                                            <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-3.jpg"
+                                                class="card-img-top" alt="Sehat Bersama Rakyat (SBR)">
+                                        </figure>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="text-black">Sehat Bersama Rakyat (SBR)</h6>
+                                        Program kesehatan masyarakat yang fokus pada pencegahan penyakit dan peningkatan
+                                        kesehatan melalui e...
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="d-md-block d-none">
+                                <figure class="zoom-effect">
+                                    <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-3.jpg "
+                                        class="card-img-top" alt="Sehat Bersama Rakyat (SBR)">
+                                </figure>
+                                <h5 class="mt-4 text-black">Sehat Bersama Rakyat (SBR)</h5>
+                                Program kesehatan masyarakat yang fokus pada pencegahan penyakit dan peningkatan
+                                kesehatan
+                                melalui e...
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                        <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-building fa-2x text-dark"></i>
-                        </div>
-                        <div class="ms-sm-4">
-                            <h4 class="mb-3">Pembangunan</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
-                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
-                        </div>
+                <div class="col-lg-3 col-md-6 mt-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card p-3">
+                        <a href="">
+                            <div class="d-md-none">
+                                <div class="row align-items-center">
+                                    <div class="col-4">
+                                        <figure class="zoom-effect">
+                                            <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-2.jpg"
+                                                class="card-img-top" alt="PROLINS (Program Lingkungan Sehat)">
+                                        </figure>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="text-black">PROLINS (Program Lingkungan Sehat)</h6>
+                                        PROLINS adalah program yang bertujuan untuk menciptakan lingkungan yang bersih,
+                                        sehat,
+                                        dan nyaman ba...
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="d-md-block d-none">
+                                <figure class="zoom-effect">
+                                    <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-2.jpg "
+                                        class="card-img-top" alt="PROLINS (Program Lingkungan Sehat)">
+                                </figure>
+                                <h5 class="mt-4 text-black">PROLINS (Program Lingkungan Sehat)</h5>
+                                PROLINS adalah program yang bertujuan untuk menciptakan lingkungan yang bersih, sehat,
+                                dan
+                                nyaman ba...
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                        <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fas fa-money-bill-alt fa-2x text-dark"></i>
-                        </div>
-                        <div class="ms-sm-4">
-                            <h4 class="mb-3">Ekonomi</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
-                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
-                        </div>
+                <div class="col-lg-3 col-md-6 mt-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card p-3">
+                        <a href="https://democaleg43.nyaleg.id/program/read/522/umkm-berdaya-saing-ubs">
+                            <div class="d-md-none">
+                                <div class="row align-items-center">
+                                    <div class="col-4">
+                                        <figure class="zoom-effect">
+                                            <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-1.jpg"
+                                                class="card-img-top" alt="UMKM Berdaya Saing (UBS)">
+                                        </figure>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="text-black">UMKM Berdaya Saing (UBS)</h6>
+                                        Program yang akan membantu meningkatkan daya saing UMKM melalui pelatihan dan
+                                        pemberian
+                                        modal usaha,...
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="d-md-block d-none">
+                                <figure class="zoom-effect">
+                                    <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-1.jpg "
+                                        class="card-img-top" alt="UMKM Berdaya Saing (UBS)">
+                                </figure>
+                                <h5 class="mt-4 text-black">UMKM Berdaya Saing (UBS)</h5>
+                                Program yang akan membantu meningkatkan daya saing UMKM melalui pelatihan dan pemberian
+                                modal
+                                usaha,...
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- akhir program kerja -->
+
     <!-- Testimonial Start -->
     <div class="container-fluid bg-light py-5 my-5" id="testimonial">
         <div class="container-fluid py-5">
@@ -239,36 +392,45 @@
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                                    src="img/testimonial-1.jpg" alt="">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd
+                                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam
+                                tempor erat.</p>
                             <hr class="w-25 mx-auto">
                             <h5>Client Name</h5>
                             <span>Profession</span>
                         </div>
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                                    src="img/testimonial-2.jpg" alt="">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd
+                                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam
+                                tempor erat.</p>
                             <hr class="w-25 mx-auto">
                             <h5>Client Name</h5>
                             <span>Profession</span>
                         </div>
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                                    src="img/testimonial-3.jpg" alt="">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd
+                                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam
+                                tempor erat.</p>
                             <hr class="w-25 mx-auto">
                             <h5>Client Name</h5>
                             <span>Profession</span>
@@ -307,8 +469,10 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-1.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i
+                                    class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -316,8 +480,10 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-2.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i
+                                    class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -325,8 +491,10 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-3.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i
+                                    class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -334,8 +502,10 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-4.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i
+                                    class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -343,8 +513,10 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-5.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.jpg"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i
+                                    class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -352,8 +524,10 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-6.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i
+                                    class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -368,12 +542,14 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h1 class="display-5 mb-5">Visi & Misi</h1>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum clita dolor duo clita sit.</p>
+                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum
+                        amet diam ipsum clita dolor duo clita sit.</p>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <ul class="nav nav-pills rounded border border-2 border-secondary mb-5">
                         <li class="nav-item w-50">
-                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Visi</button>
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill"
+                                href="#tab-1">Visi</button>
                         </li>
                         <li class="nav-item w-50">
                             <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Misi</button>
@@ -385,7 +561,10 @@
                                 <div class="col-sm-12">
                                     <h5>VISI </h5>
                                     <hr class="text-primary my-2">
-                                    <p class=" mb-0">“MEWUJUDKAN DEWAN PERWAKILAN RAKYAT DAERAH KOTA SUKOHARJO SEBAGAI LEMBAGA LEGISLATIF YANG KUAT, MERAKYAT, DINAMIS DAN TRANSPARAN DALAM MEMPERJUANGKAN ASPIRASI RAKYAT GUNA MENCAPAI SUKOHARJO MAJU BERBASIS PERTANIAN”</p>
+                                    <p class=" mb-0">“MEWUJUDKAN DEWAN PERWAKILAN RAKYAT DAERAH KLATEN SEBAGAI
+                                        LEMBAGA LEGISLATIF YANG KUAT, MERAKYAT, DINAMIS DAN TRANSPARAN DALAM
+                                        MEMPERJUANGKAN ASPIRASI RAKYAT GUNA MENCAPAI KLATEN MAJU BERBASIS PERTANIAN”
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -394,10 +573,13 @@
                                 <div class="col-sm-12">
                                     <h5>MISI</h5>
                                     <hr class="text-primary my-2">
-                                    <P> MENINGKATKAN KUALITAS, KAPABILITAS DAN KAPASITAS ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH KOTA SUKOHARJO</p>
+                                    <P> MENINGKATKAN KUALITAS, KAPABILITAS DAN KAPASITAS ANGGOTA DEWAN PERWAKILAN RAKYAT
+                                        DAERAH KOTA KLETEN</p>
                                     <P> MENINGKATKAN OPTIMALISASI FUNGSI LEGISLASI, PENGANGGARAN DAN PENGAWASAN;</p>
-                                    <P> MENIGKATKAN PARTISIPASI MASYARAKAT DALAM PENGAMBILAN KEBIJAKAN-KEBIJAKAN PUBLIK;</p>
-                                    <P> MENINGKATKNYA PARTISIPASI DAN PENGAWASAN MASYARAKAT TERHADAP KINERJA DEWAN PERWAKILAN</p>
+                                    <P> MENIGKATKAN PARTISIPASI MASYARAKAT DALAM PENGAMBILAN KEBIJAKAN-KEBIJAKAN PUBLIK;
+                                    </p>
+                                    <P> MENINGKATKNYA PARTISIPASI DAN PENGAWASAN MASYARAKAT TERHADAP KINERJA DEWAN
+                                        PERWAKILAN</p>
                                 </div>
                             </div>
                         </div>
@@ -413,44 +595,60 @@
         <div class="container">
             <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Relawan Kami</h1>
+                    <h1 class="display-5 mb-0">Artikel</h1>
                 </div>
                 <div class="col-lg-6 text-lg-end">
                     <a class="btn btn-secondary py-3 px-5" href="">Contact Us</a>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative">
-                        <img class="img-fluid rounded" src="img/team-1.jpg" alt="">
+            <div class="row">
+                <div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-black mb-4" data-aos="fade-up">VIDEO TERBARU</h5>
+                    <div class="team-item position-relative mb-3 img-thumbnail img-fluid">
+                        <div class="ratio ratio-16x9 fadeInUp" width="640" height="400" data-wow-delay="0.4s">
+                            <iframe src="https://www.youtube.com/embed/5_SwYoPl0Ts"
+                                title="Progres pembangunan GKC dari tanah lapang sampai jadi perumahan yang nyaman #rumahsubsidi #jualrumah"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <h5>Full Name</h5>
-                                <span>Designer</span>
+                                <h5>Griya Kanzu Caruban</h5>
+                                <span>Progres pembangunan GKC dari tanah lapang sampai jadi perumahan yang nyaman
+                                    #rumahsubsidi #jualrumah"</span>
                             </div>
-                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative">
-                        <img class="img-fluid rounded" src="img/team-2.jpg" alt="">
+                    <h5 class="text-black mb-4" data-aos="fade-up">BERITA TERBARU</h5>
+                    <div class="team-item position-relative mb-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="image-overlay"></div>
+                        <div class="image-label">
+                            <h5>Rabu, 12 Juli 2023</h5>
+                        </div>
+                        <img class="img-thumbnail img-fluid"
+                            src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/galeri-151-2.jpg" alt="">
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <h5>Full Name</h5>
-                                <span>Designer</span>
+                                <h5>Rabu, 12 Juli 2023 10:40 WIB</h5>
+                                <span>Aksi Peduli Lingkungan di Pantai bersama Kaum Muda</span>
                             </div>
                             <i class="fa fa-arrow-right fa-2x text-primary"></i>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item position-relative">
-                        <img class="img-fluid rounded" src="img/team-3.jpg" alt="">
+                    <div class="team-item position-relative wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="image-overlay"></div>
+                        <div class="image-label">
+                            <h5>Rabu, 12 Juli 2023</h5>
+                        </div>
+                        <img class="img-thumbnail img-fluid"
+                            src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/galeri-151-3.jpg" alt="">
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <h5>Full Name</h5>
-                                <span>Designer</span>
+                                <h5>Rabu, 12 Juli 2023 10:40 WIB</h5>
+                                <span>Bertani Semangka</span>
                             </div>
                             <i class="fa fa-arrow-right fa-2x text-primary"></i>
                         </div>
@@ -467,7 +665,7 @@
         <div class="container py-5">
             <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Daftar Relawan</h1>
+                    <h1 class="display-5 mb-0">Dukung kami</h1>
                 </div>
                 <div class="col-lg-6 text-lg-end">
                     <a class="btn btn-secondary py-3 px-5" href="">Say Hello</a>
@@ -493,35 +691,40 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <p class="mb-0">Tulis Dukunganmu .</p>
+                    <p class="mb-4">Dukungan anda sangat berarti bagi kami dan kota klaten .</p>
                     <form id="emailForm" method="post" action="send-email.php">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" name="name"
+                                        placeholder="Your Name">
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Your Email">
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" name="subject"
+                                        placeholder="Subject">
                                     <label for="subject">Subject</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px"></textarea>
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        name="message" style="height: 100px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-secondary py-3 px-5" type="submit">Daftar Relawan</button>
+                                <button class="btn btn-secondary py-3 px-5" type="submit">Kirim Dukungan</button>
                             </div>
                         </div>
                     </form>
@@ -537,9 +740,9 @@
         <div class="container-xxl pt-5 px-0">
             <div class="bg-dark">
                 <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid"
-                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid"
+                    frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
             </div>
         </div>
     </div>
@@ -548,17 +751,17 @@
 
     <!-- Copyright Start -->
     <div class="container-fluid bg-dark text-white py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom text-secondary" href="#">Hiba.kanpa.co.id</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom text-secondary" href="#">Hiba.kanpa.co.id</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
                     <a class="border-bottom text-secondary"> Caleg No 3 Dari Partai Golkar</a>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Copyright End -->
 
@@ -582,4 +785,5 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
