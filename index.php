@@ -777,7 +777,7 @@
                     &copy; <a class="border-bottom text-secondary" href="#">Hiba.kanpa.co.id</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <a class="border-bottom text-secondary"> Caleg No 3 Dari Partai Golkar</a>
+                    <a class="border-bottom text-secondary"> Caleg No 04 Dari Partai Golkar</a>
                 </div>
             </div>
         </div>
