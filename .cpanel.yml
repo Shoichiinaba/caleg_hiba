@@ -4,7 +4,8 @@ deployment:
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R lib $DEPLOYPATH
-    - /bin/cp -R image $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp send-email.php $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp composer.lock $DEPLOYPATH
-    - /bin/cp index.php $DEPLOYPATH

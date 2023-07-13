@@ -265,6 +265,17 @@
                                 melalui pendidikan.
                             </div>
                         </a>
+                        <a href="">
+                            <div class="d-md-block d-none">
+                                <figure class="zoom-effect">
+                                    <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-2.jpg "
+                                        class="card-img-top" alt="PROLINS (Program Lingkungan Sehat)">
+                                </figure>
+                                <h5 class="mt-4 text-black">GEMA HIDUP</h5>
+                                Program GEMA HIDUP bertujuan untuk memupuk kemandirian dan keberdayaan generasi muda
+                                melalui pendidikan.
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -321,7 +332,6 @@
                                 </div>
                             </div>
                         </a>
-
                         <a href="">
                             <div class="d-md-block d-none">
                                 <figure class="zoom-effect">
