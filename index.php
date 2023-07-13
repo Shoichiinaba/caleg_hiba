@@ -394,7 +394,7 @@
     <!-- akhir program kerja -->
 
     <!-- Projects Start -->
-    <div class="container-xxl py-3 pt-1" id="project">
+    <div class="container-xxl py-3 pt-4" id="project">
         <div class="container">
             <div class="row g-3 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
