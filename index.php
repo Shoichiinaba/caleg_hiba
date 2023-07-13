@@ -383,9 +383,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-3 d-none d-lg-block">
                     <div class="testimonial-left h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.png" alt="">
                         <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -393,17 +393,17 @@
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
                                 <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
-                                    src="img/testimonial-1.jpg" alt="">
+                                    src="img/testimonial-1.png" alt="">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam
-                                tempor erat.</p>
+                            <p class="fs-5 fst-italic">Aku pilih dia karena dia punya integritas yang ngga diragukan
+                                lagi, komitmennya bagus, dan dia juga punya gaya kepemimpinan yang keren. Jadi, semoga
+                                ada perubahan yang positif kalau dia jadi wakil kita!</p>
                             <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
+                            <h5>Oktadha</h5>
+                            <span>Hebat</span>
                         </div>
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
@@ -413,35 +413,38 @@
                                     <i class="fa fa-quote-left text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam
-                                tempor erat.</p>
+                            <p class="fs-5 fst-italic">Saya mendukung Demo Caleg 43 jadi anggota legislatif karena lihat
+                                hasil kerja beliau yang sepertinya mengutamakan kepentingan masyarakat. Semoga dia bisa
+                                buktikan janjinya dan bawa perubahan positif buat daerah kita. Saya yakin Demo Caleg 43
+                                bisa dipercaya dan diandalkan buat mewakili aspirasi kita sebagai rakyat.</p>
                             <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
+                            <h5>Agus</h5>
+                            <span>Mantap</span>
                         </div>
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
                                 <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
-                                    src="img/testimonial-3.jpg" alt="">
+                                    src="img/testimonial-3.png" alt="">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam
-                                tempor erat.</p>
+                            <p class="fs-5 fst-italic">Abis tau sama Demo Caleg 04 dan liat prestasinya, aku mantep
+                                banget dan yakin kalo dia nih caleg yang peduli sama rakyat dan siap berjuang buat kita
+                                semua. Aku dukung dia karena yakin kualitas kepemimpinannya oke, komitmen dan
+                                integritasnya juga tinggi. Mudah-mudahan bisa bawa perubahan positif buat daerah kita
+                                deh!</p>
                             <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
+                            <h5>Sandi</h5>
+                            <span>Lanjutkan</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 d-none d-lg-block">
                     <div class="testimonial-right h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.png" alt="">
                         <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.png" alt="">
                     </div>
                 </div>
             </div>
