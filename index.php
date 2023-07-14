@@ -48,7 +48,7 @@
     <nav class="navbar navbar-expand-lg bg-black navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn"
         data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="text-primary fw-bold m-0">GOLKAR</h1>
+            <h3 class="text-secondary fw-bold m-0">GOLKAR</h3>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -208,7 +208,7 @@
                                     </figure>
                                 </div>
                                 <div class="col-8">
-                                    <h5 class="mt-4 text-black">GEMA HIDUP</h5>
+                                    <h5 class="mt-4 text-black">Pendidikan Unggul</h5>
                                     <i class="text-black">
                                         Program GEMA HIDUP bertujuan untuk memupuk kemandirian dan keberdayaan
                                         generasi
@@ -222,7 +222,7 @@
                                 <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-4.jpg"
                                     class="card-img-top" alt="GEMA HIDUP">
                             </figure>
-                            <h5 class="mt-4 text-black">GEMA HIDUP</h5>
+                            <h5 class="mt-4 text-black">Pendidikan Unggul</h5>
                             Program GEMA HIDUP bertujuan untuk memupuk kemandirian dan keberdayaan generasi
                             muda
                             melalui pendidikan.
@@ -240,7 +240,7 @@
                                     </figure>
                                 </div>
                                 <div class="col-8">
-                                    <h6 class="text-black">Sehat Bersama Rakyat (SBR)</h6>
+                                    <h6 class="text-black">Sehat Bersama Rakyat</h6>
                                     Program kesehatan masyarakat yang fokus pada pencegahan penyakit dan peningkatan
                                     kesehatan melalui e...
                                 </div>
@@ -251,7 +251,7 @@
                                 <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-3.jpg "
                                     class="card-img-top" alt="Sehat Bersama Rakyat (SBR)">
                             </figure>
-                            <h5 class="mt-4 text-black">Sehat Bersama Rakyat (SBR)</h5>
+                            <h5 class="mt-4 text-black">Sehat Bersama Rakyat</h5>
                             Program kesehatan masyarakat yang fokus pada pencegahan penyakit dan peningkatan
                             kesehatan
                             melalui e...
@@ -269,7 +269,7 @@
                                     </figure>
                                 </div>
                                 <div class="col-8">
-                                    <h6 class="text-black">PROLINS (Program Lingkungan Sehat)</h6>
+                                    <h6 class="text-black">UMKM Go Nasional</h6>
                                     PROLINS adalah program yang bertujuan untuk menciptakan lingkungan yang bersih,
                                     sehat,
                                     dan nyaman ba...
@@ -281,7 +281,7 @@
                                 <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-2.jpg "
                                     class="card-img-top" alt="PROLINS (Program Lingkungan Sehat)">
                             </figure>
-                            <h5 class="mt-4 text-black">PROLINS (Program Lingkungan Sehat)</h5>
+                            <h5 class="mt-4 text-black">UMKM Go Nasional</h5>
                             PROLINS adalah program yang bertujuan untuk menciptakan lingkungan yang bersih, sehat,
                             dan
                             nyaman ba...
@@ -299,7 +299,7 @@
                                     </figure>
                                 </div>
                                 <div class="col-8">
-                                    <h6 class="text-black">UMKM Berdaya Saing (UBS)</h6>
+                                    <h6 class="text-black">Pertanian</h6>
                                     Program yang akan membantu meningkatkan daya saing UMKM melalui pelatihan dan
                                     pemberian
                                     modal usaha,...
@@ -311,7 +311,7 @@
                                 <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-1.jpg "
                                     class="card-img-top" alt="UMKM Berdaya Saing (UBS)">
                             </figure>
-                            <h5 class="mt-4 text-black">UMKM Berdaya Saing (UBS)</h5>
+                            <h5 class="mt-4 text-black">Pertanian</h5>
                             Program yang akan membantu meningkatkan daya saing UMKM melalui pelatihan dan pemberian
                             modal
                             usaha,...
