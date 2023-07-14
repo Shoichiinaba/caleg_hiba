@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h5 class="text-black mt-5 mb-4" data-aos="fade-up">Foto Lainnya</h5>
+                    <h5 class="text-black mt-5 pt-5" data-aos="fade-up">Berita Lainnya</h5>
                     <hr>
                     <div class="col-lg-12 mt-4 mt-lg-0" data-aos="fade-up">
                         <a href="artikel1.php">
