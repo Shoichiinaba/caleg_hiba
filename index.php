@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="img/profile1.png" alt="">
+                    <img class="img-fluid" src="img/Hiba1.png" alt="">
                 </div>
             </div>
         </div>
@@ -166,10 +166,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/profil3.png" alt="">
+                            <img class="img-fluid rounded" src="img/Panel_1.png" alt="">
                         </div>
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/profil5.png" alt="">
+                            <img class="img-fluid rounded" src="img/Panel_2.png" alt="">
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
@@ -203,8 +203,7 @@
                             <div class="row align-items-center">
                                 <div class="col-4 rounded-5">
                                     <figure class="zoom-effect">
-                                        <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-4.jpg"
-                                            class="card-img-top" alt="GEMA HIDUP">
+                                        <img src="img/Pendidikan.png" class="card-img-top" alt="GEMA HIDUP">
                                     </figure>
                                 </div>
                                 <div class="col-8">
@@ -219,8 +218,7 @@
                         </div>
                         <div class="d-md-block d-none">
                             <figure class="zoom-effect">
-                                <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-4.jpg"
-                                    class="card-img-top" alt="GEMA HIDUP">
+                                <img src="img/Pendidikan.png" class="card-img-top" alt="GEMA HIDUP">
                             </figure>
                             <h5 class="mt-4 text-black">Pendidikan Unggul</h5>
                             Program GEMA HIDUP bertujuan untuk memupuk kemandirian dan keberdayaan generasi
@@ -235,8 +233,8 @@
                             <div class="row align-items-center">
                                 <div class="col-4">
                                     <figure class="zoom-effect">
-                                        <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-3.jpg"
-                                            class="card-img-top" alt="Sehat Bersama Rakyat (SBR)">
+                                        <img src="img/Kesehatan.png" class="card-img-top"
+                                            alt="Sehat Bersama Rakyat (SBR)">
                                     </figure>
                                 </div>
                                 <div class="col-8">
@@ -248,8 +246,7 @@
                         </div>
                         <div class="d-md-block d-none">
                             <figure class="zoom-effect">
-                                <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-3.jpg "
-                                    class="card-img-top" alt="Sehat Bersama Rakyat (SBR)">
+                                <img src="img/Kesehatan.png" class="card-img-top" alt="Sehat Bersama Rakyat (SBR)">
                             </figure>
                             <h5 class="mt-4 text-black">Sehat Bersama Rakyat</h5>
                             Program kesehatan masyarakat yang fokus pada pencegahan penyakit dan peningkatan
@@ -264,8 +261,8 @@
                             <div class="row align-items-center">
                                 <div class="col-4">
                                     <figure class="zoom-effect">
-                                        <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-2.jpg"
-                                            class="card-img-top" alt="PROLINS (Program Lingkungan Sehat)">
+                                        <img src="img/Pasar.png" class="card-img-top"
+                                            alt="PROLINS (Program Lingkungan Sehat)">
                                     </figure>
                                 </div>
                                 <div class="col-8">
@@ -278,8 +275,7 @@
                         </div>
                         <div class="d-md-block d-none">
                             <figure class="zoom-effect">
-                                <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-2.jpg "
-                                    class="card-img-top" alt="PROLINS (Program Lingkungan Sehat)">
+                                <img src="img/Pasar.png" class="card-img-top" alt="PROLINS (Program Lingkungan Sehat)">
                             </figure>
                             <h5 class="mt-4 text-black">UMKM Go Nasional</h5>
                             PROLINS adalah program yang bertujuan untuk menciptakan lingkungan yang bersih, sehat,
@@ -294,8 +290,8 @@
                             <div class="row align-items-center">
                                 <div class="col-4 rounded-3">
                                     <figure class="zoom-effect">
-                                        <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-1.jpg"
-                                            class="card-img-top" alt="UMKM Berdaya Saing (UBS)">
+                                        <img src="img/Pertanian.png" class="card-img-top"
+                                            alt="UMKM Berdaya Saing (UBS)">
                                     </figure>
                                 </div>
                                 <div class="col-8">
@@ -308,8 +304,7 @@
                         </div>
                         <div class="d-md-block d-none">
                             <figure class="zoom-effect">
-                                <img src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/program-151-1.jpg "
-                                    class="card-img-top" alt="UMKM Berdaya Saing (UBS)">
+                                <img src="img/Pertanian.png" class="card-img-top" alt="UMKM Berdaya Saing (UBS)">
                             </figure>
                             <h5 class="mt-4 text-black">Pertanian</h5>
                             Program yang akan membantu meningkatkan daya saing UMKM melalui pelatihan dan pemberian
