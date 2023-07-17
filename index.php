@@ -103,8 +103,8 @@
                         <h5 class="ms-4 mb-0 d-none d-sm-block ">Play Video</h5>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <img class="img-fluid" src="img/Hiba1.png" alt="">
+                <div class="col-lg-6 .img-hib">
+                    <img class="img-hib" src="img/Hiba1.png" alt="">
                 </div>
             </div>
         </div>
