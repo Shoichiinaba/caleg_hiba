@@ -542,9 +542,6 @@
                 <div class="col-lg-6">
                     <h1 class="display-5 mb-0">Artikel</h1>
                 </div>
-                <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-secondary py-3 px-5" href="">Contact Us</a>
-                </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -646,16 +643,15 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name"
-                                        placeholder="Your Name">
-                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Nama">
+                                    <label for="name">Nama</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="email" class="form-control" id="email" name="email"
-                                        placeholder="Your Email">
-                                    <label for="email">Your Email</label>
+                                        placeholder="Email">
+                                    <label for="email">Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -669,7 +665,7 @@
                                 <div class="form-floating">
                                     <textarea class="form-control" placeholder="Leave a message here" id="message"
                                         name="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
+                                    <label for="message">Masukkan Pesan Dukungan Anda</label>
                                 </div>
                             </div>
                             <div class="col-12">
