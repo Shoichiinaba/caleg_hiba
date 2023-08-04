@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 .img-hib">
-                    <img class="img-hib" src="img/Hiba1.png" alt="">
+                    <img class="img-hib" src="img/hiba_profil.png" alt="">
                 </div>
             </div>
         </div>
@@ -611,7 +611,7 @@
         <div class="container py-5">
             <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Dukung kami</h1>
+                    <h1 class="display-5 mb-0">Aspirasi kami</h1>
                 </div>
                 <div class="col-lg-6 text-lg-end">
                     <a class="btn btn-secondary py-3 px-5" href="">Say Hello</a>
@@ -637,7 +637,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-0">Tulis Dukunganmu .</p>
+                    <p class="mb-0">Tulis Aspirasimu .</p>
                     <p class="mb-4">Dukungan anda sangat berarti bagi kami dan kota klaten .</p>
                     <form id="emailForm" method="post" action="send-email.php">
                         <div class="row g-3">
