@@ -819,7 +819,7 @@
                             <h3 class="fw-bold">+62 8767 6789 652</h3>
                             <hr class="w-100">
                             <p class="mb-2">Mail me:</p>
-                            <h3 class="fw-bold">hiba@teman-hibba.com</h3>
+                            <h3 class="fw-bold">hibba@teman-hibba.com</h3>
                         </div>
                     </div>
                     <div class="col-12">
