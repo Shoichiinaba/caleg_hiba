@@ -82,7 +82,7 @@
                     <h2 class=" mb-0"><b>Caleg DPRD Kabupaten KLATEN</b></h2>
                     <h1 class="display-3 mb-3 txt-hib"><strong>Hibba</strong></h1>
                     <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">Kader DPRD Klaten Dari Partai GOLKAR</div>
+                    <div class="typed-text d-none">DAPIL 4 KABUPATEN KLATEN</div>
                     <div class="d-flex align-items-center pt-5">
                         <a href="" class="btn btn-secondary py-1 px-4 me-5 ">
                             <i class="text-dark">
@@ -144,10 +144,11 @@
                         <div class="years flex-shrink-0 text-center me-4">
                             <h3 class="display-1 mb-0" style="color: orange;">03</h3>
                         </div>
-                        <h3 class="lh-base mb-0"><strong>Siap Berjuang </strong> demi Aspirasi Masyarakat Sukoharjo</h3>
+                        <h3 class="lh-base mb-0"><strong>Siap Berjuang </strong> demi Aspirasi Masyarakat Kabupaten
+                            Klaten</h3>
                     </div>
-                    <p class="mb-4 mt-1">Hiba Al Kanzu lahir dan besar di Kota Ungaran Kab. Semarang, dengan latar
-                        belakang sebagai seorang pengusaha, beliau sangat peduli kepada rakyat kecil yang masih hidup
+                    <p class="mb-4 mt-1">Hiba Al Kanzu dengan latar belakang sebagai seorang pengusaha, beliau sangat
+                        peduli kepada rakyat kecil yang masih hidup
                         dengan gaji dibawah UMR. Motivasi ini yang mendorong Hiba Al Kanzu untuk memperjuangkan
                         permasalahan ini di kantor dewan rakyat.</p>
                     <div class="row">
@@ -174,7 +175,7 @@
                     </div>
                     <div class="d-flex align-items-center mb-3">
                         <h5 class="border-end pe-3 me-3 mb-0">Program Prioritas</h5>
-                        <h2 class="text-secondary fw-bold mb-0" data-toggle="counter-up"><strong>4404</strong></h2>
+                        <h2 class="text-secondary fw-bold mb-0" data-toggle="counter-up"><strong>4</strong></h2>
                     </div>
                     <p class="mb-4">Membangun bersama untuk kesejahteraan dan kemajuan Indonesia</p>
                     <div class="d-flex align-items-center mb-3">
@@ -325,9 +326,8 @@
                                         </figure>
                                     </div>
                                     <div class="col-8">
-                                        <h6 class="text-black">Sehat Bersama Rakyat</h6>
+                                        <h6 class="text-black">Kualitas Kesehatan Meningkat</h6>
                                         Program kesehatan masyarakat yang fokus pada pencegahan penyakit dan peningkatan
-                                        kesehatan melalui e...
                                     </div>
                                 </div>
                             </div>
@@ -335,10 +335,9 @@
                                 <figure class="zoom-effect">
                                     <img src="img/Kesehatan.png" class="card-img-top" alt="Sehat Bersama Rakyat (SBR)">
                                 </figure>
-                                <h5 class="mt-4 text-black">Sehat Bersama Rakyat</h5>
+                                <h5 class="mt-4 text-black">Kualitas Kesehatan Meningkat</h5>
                                 Program kesehatan masyarakat yang fokus pada pencegahan penyakit dan peningkatan
-                                kesehatan
-                                melalui e...
+                                kesehatan.
                             </div>
                         </div>
                     </div>
@@ -353,10 +352,9 @@
                                         </figure>
                                     </div>
                                     <div class="col-8">
-                                        <h6 class="text-black">UMKM Go Nasional</h6>
+                                        <h6 class="text-black">UMKM Berkembang</h6>
                                         PROLINS adalah program yang bertujuan untuk menciptakan lingkungan yang bersih,
-                                        sehat,
-                                        dan nyaman ba...
+                                        sehat
                                     </div>
                                 </div>
                             </div>
@@ -365,10 +363,8 @@
                                     <img src="img/Pasar.png" class="card-img-top"
                                         alt="PROLINS (Program Lingkungan Sehat)">
                                 </figure>
-                                <h5 class="mt-4 text-black">UMKM Go Nasional</h5>
+                                <h5 class="mt-4 text-black">UMKM Berkembang</h5>
                                 PROLINS adalah program yang bertujuan untuk menciptakan lingkungan yang bersih, sehat,
-                                dan
-                                nyaman ba...
                             </div>
                         </div>
                     </div>
@@ -383,10 +379,10 @@
                                         </figure>
                                     </div>
                                     <div class="col-8">
-                                        <h6 class="text-black">Pertanian</h6>
+                                        <h6 class="text-black">Pertanian Unggul</h6>
                                         Program yang akan membantu meningkatkan daya saing UMKM melalui pelatihan dan
                                         pemberian
-                                        modal usaha,...
+                                        modal usaha
                                     </div>
                                 </div>
                             </div>
@@ -394,7 +390,7 @@
                                 <figure class="zoom-effect">
                                     <img src="img/Pertanian.png" class="card-img-top" alt="UMKM Berdaya Saing (UBS)">
                                 </figure>
-                                <h5 class="mt-4 text-black">Pertanian</h5>
+                                <h5 class="mt-4 text-black">Pertanian Unggul</h5>
                                 Program yang akan membantu meningkatkan daya saing UMKM melalui pelatihan dan pemberian
                                 modal
                                 usaha,...
@@ -786,13 +782,13 @@
                     <div class="col-6">
                         <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
                             <p class="mb-2">My office:</p>
-                            <h3 class="fw-bold">Mapagan, Jawa Tengah, indonesia</h3>
+                            <h3 class="fw-bold">Kec. Juwiring, Wonosari, Delanggu, Ceper</h3>
                             <hr class="w-100">
                             <p class="mb-2">Call me:</p>
                             <h3 class="fw-bold">+62 8767 6789 652</h3>
                             <hr class="w-100">
                             <p class="mb-2">Mail me:</p>
-                            <h3 class="fw-bold">hiba@kanpa.co.id</h3>
+                            <h3 class="fw-bold">hiba@teman-hibba.com</h3>
                         </div>
                     </div>
                     <div class="col-1" style="margin: -3px; padding: -3px;">
@@ -800,7 +796,7 @@
                     <div class="col-5 ">
                         <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.321183447426!2d110.75041547333399!3d-7.648570075663974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3f03bc557ac3%3A0x899ae1d2aeff350d!2sGriya%20Kanzu%20Klaten!5e0!3m2!1sid!2sid!4v1693024981386!5m2!1sid!2sid"
                                 frameborder="0" style="width: 100%; height: 270px; border:0; border-radius: 15px;"
                                 allowfullscreen="" aria-hidden="false" tabindex="0">
                             </iframe>
@@ -817,19 +813,19 @@
                     <div class="col-12 pt-3">
                         <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
                             <p class="mb-2">My office:</p>
-                            <h3 class="fw-bold">Mapagan, Jawa Tengah, indonesia</h3>
+                            <h3 class="fw-bold">Kec. Juwiring, Wonosari, Delanggu, Ceper</h3>
                             <hr class="w-100">
                             <p class="mb-2">Call me:</p>
                             <h3 class="fw-bold">+62 8767 6789 652</h3>
                             <hr class="w-100">
                             <p class="mb-2">Mail me:</p>
-                            <h3 class="fw-bold">hiba@kanpa.co.id</h3>
+                            <h3 class="fw-bold">hiba@teman-hibba.com</h3>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.321183447426!2d110.75041547333399!3d-7.648570075663974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3f03bc557ac3%3A0x899ae1d2aeff350d!2sGriya%20Kanzu%20Klaten!5e0!3m2!1sid!2sid!4v1693024981386!5m2!1sid!2sid"
                                 frameborder="0" style="width: 100%; height: 270px; border:0; border-radius: 15px;"
                                 allowfullscreen="" aria-hidden="false" tabindex="0">
                             </iframe>
@@ -846,11 +842,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom text-secondary" href="#">Hiba.kanpa.co.id</a>, All Right
+                        &copy; <a class="border-bottom text-secondary" href="#">teman-hibba.com</a>, All Right
                         Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <a class="border-bottom text-secondary"> Caleg No 04 Dari Partai Golkar</a>
+                        <a class="border-bottom text-secondary"> DAPIL 4 KABUPATEN KLATEN</a>
                     </div>
                 </div>
             </div>

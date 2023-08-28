@@ -117,13 +117,15 @@
     background-position-y: -119%;
 }
 
-#contact {
+/* #contact
+{
     margin-bottom: 6rem;
     background: url(../img/Lingkaran.png) right top no-repeat;
-    background-size: 55%;
-    background-position-x: 2%;
-    background-position-y: 43%;
-}
+    background-size: 55%; */
+    /* background-position-x: 2%;
+    background-position-y: 43%; */
+
+
 @media only screen and (max-width: 768px) {
     #home {
         background: none;
