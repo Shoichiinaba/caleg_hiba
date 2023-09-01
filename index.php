@@ -66,9 +66,9 @@
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="#project" class="nav-item nav-link">Gallery</a>
-                <a href="#testimonial" class="nav-item nav-link">Testimoni</a>
+                <a href="#testimonial" class="nav-item nav-link">Dukungan</a>
                 <a href="#team" class="nav-item nav-link">Artikel</a>
-                <a href="#contact" class="nav-item nav-link">Dukungan</a>
+                <a href="#contact" class="nav-item nav-link">Ruang Aspirasi</a>
             </div>
         </div>
     </nav>
@@ -83,6 +83,10 @@
                     <h1 class="display-3 mb-3 txt-hib"><strong>Hibba</strong></h1>
                     <h2 class="typed-text-output d-inline"></h2>
                     <div class="typed-text d-none">DAPIL 4 KABUPATEN KLATEN</div>
+                    <br>
+                    <div>
+                        <h5>Juwiring, Wonosari, Delanggu, Ceper</h5>
+                    </div>
                     <div class="d-flex align-items-center pt-5">
                         <a href="" class="btn btn-secondary py-1 px-4 me-5 ">
                             <i class="text-dark">
@@ -202,7 +206,7 @@
                     <div class="d-md-block d-none">
                         <div class="row align-items-center">
                             <div class="col-3 rounded-3">
-                                <img class=" img-fluid rounded" src="img/Misi.png" alt=""
+                                <img class=" img-fluid rounded" src="img/Visi.png" alt=""
                                     style="width: 90%; max-width: 90px;">
                             </div>
                             <div class="col-1" style="margin: -65px; padding: -65px;">
@@ -219,7 +223,7 @@
                     <div class="d-md-none">
                         <div class="row align-items-center">
                             <div class="col-3 rounded-3">
-                                <img class=" img-fluid rounded" src="img/Misi.png" alt=""
+                                <img class=" img-fluid rounded" src="img/Visi.png" alt=""
                                     style="width: 90%; max-width: 90px;">
                             </div>
                             <div class="col-1" style="margin: -30px; padding: -100px;;">
@@ -492,7 +496,7 @@
         <!-- Testimonial Start -->
         <div class="container-fluid bg-light py-3 my-3" id="testimonial">
             <div class="container-fluid py-3">
-                <h1 class="display-5 text-start mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
+                <h1 class="display-5 text-start mb-5 wow fadeInUp" data-wow-delay="0.1s">Dukungan</h1>
                 <div class="row justify-content-center">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="owl-carousel testimonial-carousel">
@@ -502,20 +506,16 @@
                                         <div class="row">
                                             <div class="col-md-4 mt-4 pl-1 pr-1">
                                                 <img class="img-fluid rounded-circle border border-white p-1 mx-auto"
-                                                    src="img/testimonial-1.png" alt="">
+                                                    src="img/tup.jpg" alt="">
                                             </div>
                                             <div class="col-1" style="margin: -45px; padding: -45px;">
                                             </div>
                                             <div class="col-md-7">
                                                 <img class="img-fluid mb-2" src="img/Petik.png" alt=""
                                                     style="max-height: 20px; width: auto;">
-                                                <p class="fs-9 fst-italic">Aku pilih dia karena dia punya integritas
-                                                    yang ngga
-                                                    diragukan lagi, komitmennya bagus, dan dia juga punya gaya
-                                                    kepemimpinan
-                                                    yang keren. Jadi, semoga ada perubahan yang positif kalau dia jadi
-                                                    wakil kita!</p>
-                                                <h5 class="text-center"><b>"Oktadha"</b></h5>
+                                                <p class="fs-9 fst-italic">Kami boleh diberikan janji, tapi bukti harus
+                                                    ditepati nggih. Matursuwun.</p>
+                                                <h5 class="text-center"><b>"Fauzan"</b></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -532,11 +532,8 @@
                                             <div class="col-md-7">
                                                 <img class="img-fluid mb-2" src="img/Petik.png" alt=""
                                                     style="max-height: 20px; width: auto;">
-                                                <p class="fs-9 fst-italic">Saya mendukung Demo Caleg 43 jadi anggota
-                                                    legislati karena lihat hasil kerja beliau yang sepertinya
-                                                    mengutamakan kepentingan
-                                                    masyarakat. Semoga dia bisa buktikan janjinya dan bawa perubahan
-                                                    positif buat daerah kita.</p>
+                                                <p class="fs-9 fst-italic">Jadi DPRD Yang amanah ya , saya percaya pak
+                                                    Hibba bisa memberikan kontribusi baik di tempat kami,</p>
                                                 <h5 class="text-center"><b>"Agus"</b></h5>
                                             </div>
                                         </div>
@@ -556,12 +553,8 @@
                                             <div class="col-md-7">
                                                 <img class="img-fluid mb-2" src="img/Petik.png" alt=""
                                                     style="max-height: 20px; width: auto;">
-                                                <p class="fs-9 fst-italic">Aku pilih dia karena dia punya integritas
-                                                    yang ngga
-                                                    diragukan lagi, komitmennya bagus, dan dia juga punya gaya
-                                                    kepemimpinan
-                                                    yang keren. Jadi, semoga ada perubahan yang positif kalau dia jadi
-                                                    wakil kita!</p>
+                                                <p class="fs-9 fst-italic">Kami boleh diberikan janji, tapi bukti harus
+                                                    ditepati nggih. Matursuwun.</p>
                                                 <h5 class="text-center"><b>"Oktadha"</b></h5>
                                             </div>
                                         </div>
@@ -572,19 +565,16 @@
                                         <div class="row">
                                             <div class="col-md-4 mt-4 pl-1 pr-1">
                                                 <img class="img-fluid rounded-circle border border-white p-1 mx-auto"
-                                                    src="img/testimonial-2.jpg" alt="">
+                                                    src="img/umr.jpg" alt="">
                                             </div>
                                             <div class="col-1" style="margin: -45px; padding: -45px;">
                                             </div>
                                             <div class="col-md-7">
                                                 <img class="img-fluid mb-2" src="img/Petik.png" alt=""
                                                     style="max-height: 20px; width: auto;">
-                                                <p class="fs-9 fst-italic">Saya mendukung Demo Caleg 43 jadi anggota
-                                                    legislati karena lihat hasil kerja beliau yang sepertinya
-                                                    mengutamakan kepentingan
-                                                    masyarakat. Semoga dia bisa buktikan janjinya dan bawa perubahan
-                                                    positif buat daerah kita.</p>
-                                                <h5 class="text-center"><b>"Agus"</b></h5>
+                                                <p class="fs-9 fst-italic">Semoga dia bisa buktikan janjinya dan bawa
+                                                    perubahan positif buat daerah kita.</p>
+                                                <h5 class="text-center"><b>"Umar"</b></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -596,19 +586,16 @@
                                         <div class="row">
                                             <div class="col-md-4 mt-4 pl-1 pr-1">
                                                 <img class="img-fluid rounded-circle border border-white p-1 mx-auto"
-                                                    src="img/testimonial-3.png" alt="">
+                                                    src="img/ryo.png" alt="">
                                             </div>
                                             <div class="col-1" style="margin: -45px; padding: -45px;">
                                             </div>
                                             <div class="col-md-7">
                                                 <img class="img-fluid mb-2" src="img/Petik.png" alt=""
                                                     style="max-height: 20px; width: auto;">
-                                                <p class="fs-9 fst-italic">Saya mendukung Demo Caleg 43 jadi anggota
-                                                    legislati karena lihat hasil kerja beliau yang sepertinya
-                                                    mengutamakan kepentingan
-                                                    masyarakat. Semoga dia bisa buktikan janjinya dan bawa perubahan
-                                                    positif buat daerah kita.</p>
-                                                <h5 class="text-center"><b>"Sandi"</b></h5>
+                                                <p class="fs-9 fst-italic"> Kami boleh diberikan janji, tapi bukti harus
+                                                    ditepati nggih. Matursuwun.</p>
+                                                <h5 class="text-center"><b>"Ryo"</b></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -618,19 +605,16 @@
                                         <div class="row">
                                             <div class="col-md-4 mt-4 pl-1 pr-1">
                                                 <img class="img-fluid rounded-circle border border-white p-1 mx-auto"
-                                                    src="img/testimonial-3.png" alt="">
+                                                    src="img/prs.jpg" alt="">
                                             </div>
                                             <div class="col-1" style="margin: -45px; padding: -45px;">
                                             </div>
                                             <div class="col-md-7">
                                                 <img class="img-fluid mb-2" src="img/Petik.png" alt=""
                                                     style="max-height: 20px; width: auto;">
-                                                <p class="fs-9 fst-italic">Saya mendukung Demo Caleg 43 jadi anggota
-                                                    legislati karena lihat hasil kerja beliau yang sepertinya
-                                                    mengutamakan kepentingan
-                                                    masyarakat. Semoga dia bisa buktikan janjinya dan bawa perubahan
-                                                    positif buat daerah kita.</p>
-                                                <h5 class="text-center"><b>"Sandi"</b></h5>
+                                                <p class="fs-9 fst-italic">Bismillah bisa memberikan perubahan di tempat
+                                                    kami. Lanjutkan Pak. !</p>
+                                                <h5 class="text-center"><b>"Prast"</b></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -720,10 +704,10 @@
             <div class="container pb-1 py-5">
                 <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-lg-6">
-                        <h1 class="display-5 mb-0">Aspirasi kami</h1>
+                        <h1 class="display-5 mb-0">Ruang Aspirasi</h1>
                     </div>
                     <div class="col-lg-6 text-lg-end">
-                        <a class="btn btn-secondary py-3 px-5" href="">Say Hello</a>
+                        <!-- <a class="btn btn-secondary py-3 px-5" href="">Say Hello</a> -->
                     </div>
                 </div>
                 <div class="row g-5">
@@ -732,7 +716,7 @@
                     </div>
                     <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <p class="mb-0">Tulis Aspirasimu .</p>
-                        <p class="mb-4">Dukungan anda sangat berarti bagi kami dan kota klaten .</p>
+                        <p class="mb-4">Aspirasi anda sangat berarti bagi kami dan Kabupaten klaten .</p>
                         <form id="emailForm" method="post" action="send-email.php">
                             <div class="row g-3">
                                 <div class="col-md-6">
@@ -760,11 +744,11 @@
                                     <div class="form-floating">
                                         <textarea class="form-control" placeholder="Leave a message here" id="message"
                                             name="message" style="height: 100px"></textarea>
-                                        <label for="message">Masukkan Pesan Dukungan Anda</label>
+                                        <label for="message">Masukkan Aspirasi Anda</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-secondary py-3 px-5" type="submit">Kirim Dukungan</button>
+                                    <button class="btn btn-secondary py-3 px-5" type="submit">Kirim Aspirasi</button>
                                 </div>
                             </div>
                         </form>

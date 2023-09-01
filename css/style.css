@@ -195,11 +195,6 @@
 .img-hib {
     max-width: 76%;
   }
-  /* .col-lg-6 .img-hib {
-    width: 50%;
-    height: auto;
-  } */
-
 
 @keyframes pulse-border {
     0% {
@@ -255,6 +250,13 @@
 #skill .progress {
     height: 5px;
     border-radius: 5px;
+}
+#skill {
+    margin-bottom: 6rem;
+    background: url(../img/Lingkaran2.png) right top no-repeat;
+    background-size: 29%;
+    background-position-x: 200%;
+    background-position-y: -119%;
 }
 
 #skill .progress .progress-bar {
