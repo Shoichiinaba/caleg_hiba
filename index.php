@@ -80,7 +80,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 py-6 pb-0 pt-lg-0">
                     <h2 class=" mb-0"><b>Caleg DPRD Kabupaten KLATEN</b></h2>
-                    <h1 class="display-3 mb-3 txt-hib"><strong>Hibba</strong></h1>
+                    <h1 class="display-3 mb-3 txt-hib"><strong>Hibba Al Kanzu, SE.</strong></h1>
                     <h2 class="typed-text-output d-inline"></h2>
                     <div class="typed-text d-none">DAPIL 4 KABUPATEN KLATEN</div>
                     <br>
@@ -90,7 +90,7 @@
                     <div class="d-flex align-items-center pt-5">
                         <a href="" class="btn btn-secondary py-1 px-4 me-5 ">
                             <i class="text-dark">
-                                Hiba Al Kanzu
+                                Hibba Al Kanzu
                                 <p>Nomer Urut</p>
                             </i>
                             <p style="position: relative; display: inline-block;">
@@ -166,7 +166,6 @@
                                 dan UMKM</p>
                         </div>
                     </div>
-                    <a class="btn btn-secondary mt-3 rounded" href="">Read More</a>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
@@ -183,8 +182,8 @@
                     </div>
                     <p class="mb-4">Membangun bersama untuk kesejahteraan dan kemajuan Indonesia</p>
                     <div class="d-flex align-items-center mb-3">
-                        <h5 class="border-end pe-3 me-3 mb-0">Agenda</h5>
-                        <h2 class="text-secondary fw-bold mb-0" data-toggle="counter-up">4404</h2>
+                        <h5 class="border-end pe-3 me-3 mb-0">Total Kunjungan</h5>
+                        <h2 class="text-secondary fw-bold mb-0" data-toggle="counter-up">2776</h2>
                     </div>
                     <p class="mb-0"></p>
                 </div>
@@ -506,7 +505,7 @@
                                         <div class="row">
                                             <div class="col-md-4 mt-4 pl-1 pr-1">
                                                 <img class="img-fluid rounded-circle border border-white p-1 mx-auto"
-                                                    src="img/tup.jpg" alt="">
+                                                    src="img/fau.jpg" alt="">
                                             </div>
                                             <div class="col-1" style="margin: -45px; padding: -45px;">
                                             </div>
@@ -525,7 +524,7 @@
                                         <div class="row">
                                             <div class="col-md-4 mt-4 pl-1 pr-1">
                                                 <img class="img-fluid rounded-circle border border-white p-1 mx-auto"
-                                                    src="img/testimonial-2.jpg" alt="">
+                                                    src="img/ags.jpg" alt="">
                                             </div>
                                             <div class="col-1" style="margin: -45px; padding: -45px;">
                                             </div>
@@ -586,7 +585,7 @@
                                         <div class="row">
                                             <div class="col-md-4 mt-4 pl-1 pr-1">
                                                 <img class="img-fluid rounded-circle border border-white p-1 mx-auto"
-                                                    src="img/ryo.png" alt="">
+                                                    src="img/rio.jpg" alt="">
                                             </div>
                                             <div class="col-1" style="margin: -45px; padding: -45px;">
                                             </div>
