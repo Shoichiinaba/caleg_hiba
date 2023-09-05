@@ -56,20 +56,37 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h3 class="text-black mb-2" data-aos="fade-up"><strong>Bertani Semangka</strong></h3>
+                    <h3 class="text-black mb-2" data-aos="fade-up"><strong>Momentum kebangkitan UMKM seiring turunnya
+                            angka kemiskinan</strong></h3>
                     <h5 class="text-black mb-4" data-aos="fade-up">Rabu, 03 Mei 2023 10:40 WIB</h5>
                     <div class="team-item position-relative mb-3 img-thumbnail img-fluid">
                         <div class="ratio ratio-16x9 fadeInUp" width="640" height="400" data-wow-delay="0.4s">
-                            <img class="img-thumbnail img-fluid"
-                                src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/galeri-151-2.jpg"
-                                alt="">
+                            <img class="img-thumbnail img-fluid" src="img/Umkm.jpg" alt="">
                         </div>
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <span>Demo Caleg 43 mengunjungi petani semangka di daerah untuk memahami lebih jauh
-                                    mengenai tantangan dan kebutuhan para petani lokal. Dalam kunjungan ini, Demo Caleg
-                                    43 juga memberikan bantuan dan dukungan untuk membantu meningkatkan kesejahteraan
-                                    para petani dan mendorong pertumbuhan ekonomi di daerah.</span>
+                                <span>Memasuki Tahun Baru 2023, Kabupaten Klaten menyambut baik
+                                    pencabutan kebijakan PPKM.
+                                    Pemkab Klaten berharap pencabutan PPKM segera disambut dengan bangkitnya
+                                    sektor usaha kecil mikro dan menengah (UMKM).
+                                    "Dua tahun lebih kita merasakan bagaimana dihantam dengan COVID-19, tahun 2023
+                                    PPKM
+                                    dicabut oleh Bapak Presiden. Semoga dengan PPKM tentunya UMKM bangkit dan
+                                    perekonomian menjadi lebih kuat," ungkap Bupati Klaten, Sri Mulyani kepada
+                                    wartawan,
+                                    Minggu (1/1/2023).<br><br>
+
+                                    Sri Mulyani berharap semua lebih baik di tahun 2023. Pemkab Klaten akan terus
+                                    bekerja keras memajukan dan menyejahterakan masyarakat.<br>
+                                    <p>
+                                        Baca artikel detikjateng, "Momentum Kebangkitan UMKM Klaten Seiring Turunnya
+                                        Angka
+                                        Kemiskinan.
+                                        <a href="https://www.detik.com/jateng/berita/d-6493581/momentum-kebangkitan-umkm-klaten-seiring-turunnya-angka-kemiskinan"
+                                            target="_blank">
+                                            Berita selengkapnya</a>
+                                    </p>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -79,13 +96,15 @@
                     <hr>
                     <div class="col-lg-12 mt-4 mt-lg-0" data-aos="fade-up">
                         <a href="artikel1.php">
-                            <h6 class="text-dark">Potret Relawan Demo Caleg 43</h6>
+                            <h6 class="text-dark">Bupati Klaten Minta Guru Harus Berinovasi
+                                Sesuai Zaman</h6>
                             <div class="small">Rabu, 03 Mei 2023 </div>
                         </a>
                         <hr>
                         <a href="artikel2.php">
-                            <h6 class="text-dark">Aksi Peduli Lingkungan di Pantai bersama Kaum Muda</h6>
-                            <div class="small">Rabu, 03 Mei 2023 </div>
+                            <h6 class="text-dark">Momentum Kebangkitan UMKM Seiring Turunnya
+                                angka Kemiskinan</h6>
+                            <div class="small">Selasa, 16 Juli 2023 </div>
                         </a>
                         <hr>
                     </div>

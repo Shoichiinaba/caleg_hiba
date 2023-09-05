@@ -582,7 +582,7 @@
                                         <div class="row">
                                             <div class="col-md-4 mt-4 pl-1 pr-1">
                                                 <img class="img-fluid rounded-circle border border-white p-1 mx-auto"
-                                                    src="img/rio.jpg" alt="">
+                                                    src="img/izl.png" alt="">
                                             </div>
                                             <div class="col-1" style="margin: -45px; padding: -45px;">
                                             </div>
@@ -591,7 +591,7 @@
                                                     style="max-height: 20px; width: auto;">
                                                 <p class="fs-9 fst-italic"> Kami boleh diberikan janji, tapi bukti harus
                                                     ditepati nggih. Matursuwun.</p>
-                                                <h5 class="text-center"><b>"Ryo"</b></h5>
+                                                <h5 class="text-center"><b>"Izul"</b></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -636,17 +636,17 @@
                         <h5 class="text-black mb-4" data-aos="fade-up">VIDEO TERBARU</h5>
                         <div class="team-item position-relative mb-3 img-thumbnail img-fluid">
                             <div class="ratio ratio-16x9 fadeInUp" width="640" height="400" data-wow-delay="0.4s">
-                                <iframe src="https://www.youtube.com/embed/5_SwYoPl0Ts"
-                                    title="Progres pembangunan GKC dari tanah lapang sampai jadi perumahan yang nyaman #rumahsubsidi #jualrumah"
-                                    frameborder="0"
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/9sC4Hrog-iY?si=nSOML_4Yiu3dZztX"
+                                    title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen></iframe>
                             </div>
                             <div class="team-text bg-white rounded-end p-4">
                                 <div>
-                                    <h5>Griya Kanzu Caruban</h5>
-                                    <span>Progres pembangunan GKC dari tanah lapang sampai jadi perumahan yang nyaman
-                                        #rumahsubsidi #jualrumah"</span>
+                                    <h5>Komunitas Petani Muda</h5>
+                                    <span>Selamatkan Sektor Pertanian, Komunitas Petani Muda Muncul di Klaten, Kini Buru
+                                        1.000 Anggota</span>
                                 </div>
                             </div>
                         </div>
@@ -658,14 +658,13 @@
                             <div class="image-label">
                                 <h5>Rabu, 12 Juli 2023</h5>
                             </div>
-                            <img class="img-thumbnail img-fluid"
-                                src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/galeri-151-2.jpg"
-                                alt="">
+                            <img class="img-thumbnail img-fluid" src="img/Umkm.jpg" alt="">
                             <a href="artikel2.php">
                                 <div class="team-text bg-white rounded-end p-4">
                                     <div>
                                         <h5>Rabu, 12 Juli 2023 10:40 WIB</h5>
-                                        <span>Aksi Peduli Lingkungan di Pantai bersama Kaum Muda</span>
+                                        <span>Momentum kebangkitan UMKM seiring turunnya angka kemiskinan.
+                                        </span>
                                     </div>
                                     <i class="fa fa-arrow-right fa-2x text-primary"></i>
                                 </div>
@@ -676,14 +675,12 @@
                             <div class="image-label">
                                 <h5>Rabu, 12 Juli 2023</h5>
                             </div>
-                            <img class="img-thumbnail img-fluid"
-                                src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/galeri-151-3.jpg"
-                                alt="">
+                            <img class="img-thumbnail img-fluid" src="img/berpen.jpg" alt="">
                             <a href="artikel1.php">
                                 <div class="team-text bg-white rounded-end p-4">
                                     <div>
-                                        <h5>Rabu, 12 Juli 2023 10:40 WIB</h5>
-                                        <span>Bertani Semangka</span>
+                                        <h5>Selasa, 16 Juli 2023 10:40 WIB</h5>
+                                        <span>Bupati Klaten Minta Guru Harus Berinovasi Sesuai Zaman</span>
                                     </div>
                                     <i class="fa fa-arrow-right fa-2x text-primary"></i>
                                 </div>

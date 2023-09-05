@@ -56,20 +56,26 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h3 class="text-black mb-2" data-aos="fade-up"><strong>Bertani Semangka</strong></h3>
-                    <h5 class="text-black mb-4" data-aos="fade-up">Rabu, 03 Mei 2023 10:40 WIB</h5>
+                    <h3 class="text-black mb-2" data-aos="fade-up"><strong>Bupati Klaten Minta Guru Harus Berinovasi
+                            Sesuai Zaman</strong></h3>
+                    <h5 class="text-black mb-4" data-aos="fade-up">Selasa, 16 Juli 2023 10:40 WIB</h5>
                     <div class="team-item position-relative mb-3 img-thumbnail img-fluid">
                         <div class="ratio ratio-16x9 fadeInUp" width="640" height="400" data-wow-delay="0.4s">
-                            <img class="img-thumbnail img-fluid"
-                                src="https://democaleg43.nyaleg.id/dirmember/00000001/democaleg43/galeri-151-3.jpg"
-                                alt="">
+                            <img class="img-thumbnail img-fluid" src="img/berpen.jpg" alt="">
                         </div>
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <span>Demo Caleg 43 mengunjungi petani semangka di daerah untuk memahami lebih jauh
-                                    mengenai tantangan dan kebutuhan para petani lokal. Dalam kunjungan ini, Demo Caleg
-                                    43 juga memberikan bantuan dan dukungan untuk membantu meningkatkan kesejahteraan
-                                    para petani dan mendorong pertumbuhan ekonomi di daerah.</span>
+                                <span>“Perubahan kurikulum pembelajaran dari tahun ke tahun sebenarnya adalah terobosan
+                                    supaya pendidikan di Indonesia tidak ketinggalan jaman, namun tetap tidak
+                                    meninggalkan nilai luhur pancasila,” katanya.<br><br>
+                                    Bupati mengatakan, profil pelajar Pancasila merupakan karakter yang harus dibentuk
+                                    dan diwujudkan dalam kurikulum merdeka. Ini sangat relevan dalam pencapaian
+                                    pembelajaran dan kurikulum di Indonesia yaitu sejalan dengan upaya menumbuhkan
+                                    nilai-nilai budaya Indonesia dan pancasila.<br>
+                                    <a href="https://jatengprov.go.id/beritadaerah/bupati-klaten-minta-guru-harus-berinovasi-sesuai-zaman/"
+                                        target="_blank">
+                                        Berita selengkapnya</a>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -79,12 +85,14 @@
                     <hr>
                     <div class="col-lg-12 mt-4 mt-lg-0" data-aos="fade-up">
                         <a href="artikel1.php">
-                            <h6 class="text-dark">Potret Relawan Demo Caleg 43</h6>
-                            <div class="small">Rabu, 03 Mei 2023 </div>
+                            <h6 class="text-dark">Bupati Klaten Minta Guru Harus Berinovasi
+                                Sesuai Zaman</h6>
+                            <div class="small">Selasa, 16 Juli 2023</div>
                         </a>
                         <hr>
                         <a href="artikel2.php">
-                            <h6 class="text-dark">Aksi Peduli Lingkungan di Pantai bersama Kaum Muda</h6>
+                            <h6 class="text-dark">Momentum Kebangkitan UMKM Seiring Turunnya
+                                angka Kemiskinan</h6>
                             <div class="small">Rabu, 03 Mei 2023 </div>
                         </a>
                         <hr>
