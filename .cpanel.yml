@@ -6,6 +6,8 @@ deployment:
     - /bin/cp -R lib $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp artikel1.php $DEPLOYPATH
+    - /bin/cp artikel2.php $DEPLOYPATH
     - /bin/cp send-email.php $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp composer.lock $DEPLOYPATH
