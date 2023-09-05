@@ -182,7 +182,9 @@
                     <p class="mb-4">Membangun bersama untuk kesejahteraan dan kemajuan Indonesia</p>
                     <div class="d-flex align-items-center mb-3">
                         <h5 class="border-end pe-3 me-3 mb-0">Total Kunjungan</h5>
-                        <h2 class="text-secondary fw-bold mb-0" data-toggle="counter-up">2776</h2>
+                        <h2 class="text-secondary fw-bold mb-0" data-toggle="counter-up">
+                            <?php include('counter.php'); ?>
+                        </h2>
                     </div>
                     <p class="mb-0"></p>
                 </div>
@@ -494,7 +496,7 @@
                 <div class="row justify-content-center">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="owl-carousel testimonial-carousel">
-                            <div class="row">
+                            <div class="row ml-0 p-1">
                                 <div class="col-md-6 testimonial-item">
                                     <div class="card p-3 mb-2 mr-1 bg-ffc448">
                                         <div class="row">
@@ -534,7 +536,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row pr-1 mr-1">
                                 <div class="col-md-6 testimonial-item">
                                     <div class="card p-3 mb-2 bg-ffc448">
                                         <div class="row">
@@ -575,7 +577,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row m-1">
                                 <div class="col-md-6 testimonial-item">
                                     <div class="card mb-2 p-3 bg-ffc448">
                                         <div class="row">
