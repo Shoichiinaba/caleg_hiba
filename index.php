@@ -37,7 +37,7 @@
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -115,7 +115,6 @@
     </div>
     <!-- Header End -->
 
-
     <!-- Video Modal Start -->
     <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -170,10 +169,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/Panel_1.png" alt="">
+                            <img class="img-fluid rounded" src="img/Hibba-01.jpg" alt="">
                         </div>
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/Panel_2.png" alt="">
+                            <img class="img-fluid rounded" src="img/Hibba-02.jpg" alt="">
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
@@ -497,7 +496,7 @@
                         <div class="owl-carousel testimonial-carousel">
                             <div class="row">
                                 <div class="col-md-6 testimonial-item">
-                                    <div class="card p-3 mb-2 bg-ffc448">
+                                    <div class="card p-3 mb-2 mr-1 bg-ffc448">
                                         <div class="row">
                                             <div class="col-md-4 mt-4 pl-1 pr-1">
                                                 <img class="img-fluid rounded-circle border border-white p-1 mx-auto"
