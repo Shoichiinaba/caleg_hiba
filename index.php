@@ -300,10 +300,8 @@
                                     <div class="col-8">
                                         <h5 class="mt-4 text-black">Pendidikan Unggul</h5>
                                         <i class="text-black">
-                                            Program GEMA HIDUP bertujuan untuk memupuk kemandirian dan keberdayaan
-                                            generasi
-                                            muda
-                                            melalui pendidikan.</i>
+                                            Pendidikan unggul yang terpadu, berkarakter, cerdas dan terampil mengelola
+                                            serta mengimplementasi teknologi digital.</i>
                                     </div>
                                 </div>
                             </div>
@@ -312,9 +310,8 @@
                                     <img src="img/Pendidikan.png" class="card-img-top" alt="GEMA HIDUP">
                                 </figure>
                                 <h5 class="mt-4 text-black">Pendidikan Unggul</h5>
-                                Program GEMA HIDUP bertujuan untuk memupuk kemandirian dan keberdayaan generasi
-                                muda
-                                melalui pendidikan.
+                                Pendidikan unggul yang terpadu, berkarakter, cerdas dan terampil mengelola serta
+                                mengimplementasi teknologi digital.
                             </div>
                         </div>
                     </div>
@@ -356,8 +353,8 @@
                                     </div>
                                     <div class="col-8">
                                         <h6 class="text-black">UMKM Berkembang</h6>
-                                        PROLINS adalah program yang bertujuan untuk menciptakan lingkungan yang bersih,
-                                        sehat
+                                        Menyediakan inkubator para UMKM untuk meningkatkan kualitas produk dan pemasaran
+                                        produk yang unggul
                                     </div>
                                 </div>
                             </div>
@@ -367,7 +364,8 @@
                                         alt="PROLINS (Program Lingkungan Sehat)">
                                 </figure>
                                 <h5 class="mt-4 text-black">UMKM Berkembang</h5>
-                                PROLINS adalah program yang bertujuan untuk menciptakan lingkungan yang bersih, sehat,
+                                Menyediakan inkubator para UMKM untuk meningkatkan kualitas produk dan pemasaran produk
+                                yang unggul
                             </div>
                         </div>
                     </div>
@@ -383,9 +381,8 @@
                                     </div>
                                     <div class="col-8">
                                         <h6 class="text-black">Pertanian Unggul</h6>
-                                        Program yang akan membantu meningkatkan daya saing UMKM melalui pelatihan dan
-                                        pemberian
-                                        modal usaha
+                                        Membangun industrial pertanian unggul berkelanjutan dengan menggalakkan gerakan
+                                        penganekaragaman atau diversifikasi pangan berbasis sumberdaya lokal
                                     </div>
                                 </div>
                             </div>
@@ -394,9 +391,8 @@
                                     <img src="img/Pertanian.png" class="card-img-top" alt="UMKM Berdaya Saing (UBS)">
                                 </figure>
                                 <h5 class="mt-4 text-black">Pertanian Unggul</h5>
-                                Program yang akan membantu meningkatkan daya saing UMKM melalui pelatihan dan pemberian
-                                modal
-                                usaha,...
+                                Membangun industrial pertanian unggul berkelanjutan dengan menggalakkan gerakan
+                                penganekaragaman atau diversifikasi pangan berbasis sumberdaya lokal
                             </div>
                         </div>
                     </div>
@@ -571,7 +567,8 @@
                                             <div class="col-md-7">
                                                 <img class="img-fluid mb-2" src="img/Petik.png" alt=""
                                                     style="max-height: 20px; width: auto;">
-                                                <p class="fs-9 fst-italic">Semoga dia bisa buktikan janjinya dan bawa
+                                                <p class="fs-9 fst-italic">Semoga pak Hibba bisa buktikan janjinya dan
+                                                    bawa
                                                     perubahan positif buat daerah kita.</p>
                                                 <h5 class="text-center"><b>"Umar"</b></h5>
                                             </div>
@@ -711,7 +708,7 @@
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <img class="img-hib" src="img/aspirasi.png" alt="" style="margin: -25px; padding: -25px;">
+                        <img class="img-hib" src="img/aspirasi1.png" alt="" style="margin: -25px; padding: -25px;">
                     </div>
                     <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <p class="mb-0">Tulis Aspirasimu .</p>
