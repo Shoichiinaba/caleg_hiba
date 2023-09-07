@@ -91,7 +91,7 @@
                         <a href="" class="btn btn-secondary py-1 px-4 me-5 ">
                             <i class="text-dark">
                                 Hibba Al Kanzu
-                                <p>Nomer Urut</p>
+                                <p></p>
                             </i>
                             <p style="position: relative; display: inline-block;">
                                 <span
@@ -144,7 +144,7 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 style="margin-left: 32px;">Nomer Urut</h5>
+                    <!-- <h5 style="margin-left: 32px;">Nomer Urut</h5> -->
                     <div class="d-flex align-items-center mb-5">
                         <div class="years flex-shrink-0 text-center me-4">
                             <!-- <h3 class="display-1 mb-0" style="color: orange;">03</h3> -->
@@ -694,7 +694,7 @@
                             <div class="team-item position-relative wow fadeInUp mt-2" data-wow-delay="0.3s">
                                 <div class="image-overlay"></div>
                                 <div class="image-label">
-                                    <h5>Kamis, 14 Juli 2023</h5>
+                                    <h5>Selasa, 4 September 2023</h5>
                                 </div>
                                 <img class="img-thumbnail img-fluid" src="img/berkes.jpg" alt="">
                                 <a href="artikel3.php">
