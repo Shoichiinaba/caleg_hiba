@@ -107,6 +107,12 @@
                             <div class="small">Selasa, 16 Juli 2023 </div>
                         </a>
                         <hr>
+                        <a href="artikel3.php">
+                            <h6 class="text-dark">Dinas Kesehatan dan Kecamatan Ngawen Juara I KIP Award Klaten
+                                2023</h6>
+                            <div class="small">Selasa, 16 Juli 2023 </div>
+                        </a>
+                        <hr>
                     </div>
                 </div>
             </div>

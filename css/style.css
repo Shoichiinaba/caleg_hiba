@@ -330,7 +330,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(98, 68, 197, .9);
+    background: #ffc5488f;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -562,3 +562,37 @@ program kerja */
         background-position-y: 101%;
     }
 }
+/* artikel */
+.carousel {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-item {
+    flex: 0 0 auto;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #carousel-controls {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #prev-button,
+  #next-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  #prev-button:hover,
+  #next-button:hover {
+    background-color: #ffc448;
+  }
+
+/* akhir artikel */

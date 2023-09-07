@@ -96,8 +96,10 @@
                             <p style="position: relative; display: inline-block;">
                                 <span
                                     style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -1%); border-radius: 50%; width: 100px; height: 100px; background-color: white;"></span>
-                                <h1 class="display-2" style="position: relative;z-index: 0;margin: -2px;bottom: 15px;">
-                                    03</h1>
+                                <h1 class="display-2"
+                                    style="position: relative; z-index: 0; margin: -2px; bottom: 15px; color: white;">
+                                    03
+                                </h1>
                             </p>
                         </a>
                         <button type="button" class="btn-play btn-secondary" data-bs-toggle="modal"
@@ -145,7 +147,7 @@
                     <h5 style="margin-left: 32px;">Nomer Urut</h5>
                     <div class="d-flex align-items-center mb-5">
                         <div class="years flex-shrink-0 text-center me-4">
-                            <h3 class="display-1 mb-0" style="color: orange;">03</h3>
+                            <!-- <h3 class="display-1 mb-0" style="color: orange;">03</h3> -->
                         </div>
                         <h3 class="lh-base mb-0"><strong>Siap Berjuang </strong> demi Aspirasi Masyarakat Kabupaten
                             Klaten</h3>
@@ -169,10 +171,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/Hibba-01.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/hibba-01.jpg" alt="">
                         </div>
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/Hibba-02.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/hibba-02.jpg" alt="">
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
@@ -652,183 +654,205 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <di class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h5 class="text-black mb-4" data-aos="fade-up">BERITA TERBARU</h5>
-                        <div class="team-item position-relative mb-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="image-overlay"></div>
-                            <div class="image-label">
-                                <h5>Rabu, 12 Juli 2023</h5>
-                            </div>
-                            <img class="img-thumbnail img-fluid" src="img/Umkm.jpg" alt="">
-                            <a href="artikel2.php">
-                                <div class="team-text bg-white rounded-end p-4">
-                                    <div>
-                                        <h5>Rabu, 12 Juli 2023 10:40 WIB</h5>
-                                        <span>Momentum kebangkitan UMKM seiring turunnya angka kemiskinan.
-                                        </span>
-                                    </div>
-                                    <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        <!-- tes -->
+                        <div style="max-height: 28rem; overflow: overlay;">
+                            <div class="team-item position-relative mb-3 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="image-overlay"></div>
+                                <div class="image-label">
+                                    <h5>Rabu, 12 Juli 2023</h5>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="team-item position-relative wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="image-overlay"></div>
-                            <div class="image-label">
-                                <h5>Rabu, 12 Juli 2023</h5>
-                            </div>
-                            <img class="img-thumbnail img-fluid" src="img/berpen.jpg" alt="">
-                            <a href="artikel1.php">
-                                <div class="team-text bg-white rounded-end p-4">
-                                    <div>
-                                        <h5>Selasa, 16 Juli 2023 10:40 WIB</h5>
-                                        <span>Bupati Klaten Minta Guru Harus Berinovasi Sesuai Zaman</span>
+                                <img class="img-thumbnail img-fluid" src="img/Umkm.jpg" alt="">
+                                <a href="artikel2.php">
+                                    <div class="team-text bg-white rounded-end p-4">
+                                        <div>
+                                            <h5>Rabu, 12 Juli 2023 10:40 WIB</h5>
+                                            <span>Momentum kebangkitan UMKM seiring turunnya angka kemiskinan.
+                                            </span>
+                                        </div>
+                                        <i class="fa fa-arrow-right fa-2x text-primary"></i>
                                     </div>
-                                    <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                                </a>
+                            </div>
+                            <div class="team-item position-relative wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="image-overlay"></div>
+                                <div class="image-label">
+                                    <h5>Rabu, 16 Juli 2023</h5>
                                 </div>
-                            </a>
+                                <img class="img-thumbnail img-fluid" src="img/berpen.jpg" alt="">
+                                <a href="artikel1.php">
+                                    <div class="team-text bg-white rounded-end p-4">
+                                        <div>
+                                            <h5>Selasa, 16 Juli 2023 10:40 WIB</h5>
+                                            <span>Bupati Klaten Minta Guru Harus Berinovasi Sesuai Zaman</span>
+                                        </div>
+                                        <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="team-item position-relative wow fadeInUp mt-2" data-wow-delay="0.3s">
+                                <div class="image-overlay"></div>
+                                <div class="image-label">
+                                    <h5>Kamis, 14 Juli 2023</h5>
+                                </div>
+                                <img class="img-thumbnail img-fluid" src="img/berkes.jpg" alt="">
+                                <a href="artikel3.php">
+                                    <div class="team-text bg-white rounded-end p-4">
+                                        <div>
+                                            <h5>Selasa, 4 September 2023 10:40 WIB</h5>
+                                            <span>Dinas Kesehatan dan Kecamatan Ngawen Juara I KIP Award Klaten
+                                                2023</span>
+                                        </div>
+                                        <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
                 </div>
+                <!-- akhir tes -->
             </div>
         </div>
-        <!-- Team End -->
+    </div>
+    </div>
+    <!-- Team End -->
 
-        <!-- Contact Start -->
-        <div class="container-xxl pb-1" id="contact">
-            <div class="container pb-1 py-5">
-                <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-lg-6">
-                        <h1 class="display-5 mb-0">Ruang Aspirasi</h1>
-                    </div>
-                    <div class="col-lg-6 text-lg-end">
-                        <!-- <a class="btn btn-secondary py-3 px-5" href="">Say Hello</a> -->
-                    </div>
+    <!-- Contact Start -->
+    <div class="container-xxl pb-1" id="contact">
+        <div class="container pb-1 py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Ruang Aspirasi</h1>
                 </div>
-                <div class="row g-5">
-                    <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <img class="img-hib" src="img/aspirasi1.png" alt="" style="margin: -25px; padding: -25px;">
-                    </div>
-                    <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <p class="mb-0">Tulis Aspirasimu .</p>
-                        <p class="mb-4">Aspirasi anda sangat berarti bagi kami dan Kabupaten klaten .</p>
-                        <form id="emailForm" method="post" action="send-email.php">
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" name="name"
-                                            placeholder="Nama">
-                                        <label for="name">Nama</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" name="email"
-                                            placeholder="Email">
-                                        <label for="email">Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" name="subject"
-                                            placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                            name="message" style="height: 100px"></textarea>
-                                        <label for="message">Masukkan Aspirasi Anda</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-secondary py-3 px-5" type="submit">Kirim Aspirasi</button>
+                <div class="col-lg-6 text-lg-end">
+                    <!-- <a class="btn btn-secondary py-3 px-5" href="">Say Hello</a> -->
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-hib" src="img/aspirasi1.png" alt="" style="margin: -25px; padding: -25px;">
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-0">Tulis Aspirasimu .</p>
+                    <p class="mb-4">Aspirasi anda sangat berarti bagi kami dan Kabupaten klaten .</p>
+                    <form id="emailForm" method="post" action="send-email.php">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Nama">
+                                    <label for="name">Nama</label>
                                 </div>
                             </div>
-                        </form>
-                    </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Email">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" name="subject"
+                                        placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        name="message" style="height: 100px"></textarea>
+                                    <label for="message">Masukkan Aspirasi Anda</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-secondary py-3 px-5" type="submit">Kirim
+                                    Aspirasi</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+    </div>
+    <!-- Contact End -->
 
-        <!-- Map Start -->
-        <!-- desktop -->
-        <div class="d-md-block d-none">
-            <div class="card p-3 mb-3 mt-1 bg-ffc448 rounded-10">
-                <div class="row align-items-center p-0 m-0">
-                    <div class="col-6">
-                        <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
-                            <p class="mb-2">My office:</p>
-                            <h3 class="fw-bold">Kec. Juwiring, Wonosari, Delanggu, Ceper</h3>
-                            <hr class="w-100">
-                            <p class="mb-2">Call me:</p>
-                            <h3 class="fw-bold">+62 8767 6789 652</h3>
-                            <hr class="w-100">
-                            <p class="mb-2">Mail me:</p>
-                            <h3 class="fw-bold">hibba@teman-hibba.com</h3>
-                        </div>
+    <!-- Map Start -->
+    <!-- desktop -->
+    <div class="d-md-block d-none">
+        <div class="card p-3 mb-3 mt-1 bg-ffc448 rounded-10">
+            <div class="row align-items-center p-0 m-0">
+                <div class="col-6">
+                    <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="mb-2">My office:</p>
+                        <h3 class="fw-bold">Kec. Juwiring, Wonosari, Delanggu, Ceper</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Call me:</p>
+                        <h3 class="fw-bold">+62 8767 6789 652</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Mail me:</p>
+                        <h3 class="fw-bold">hibba@teman-hibba.com</h3>
                     </div>
-                    <div class="col-1" style="margin: -3px; padding: -3px;">
-                    </div>
-                    <div class="col-5 ">
-                        <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.321183447426!2d110.75041547333399!3d-7.648570075663974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3f03bc557ac3%3A0x899ae1d2aeff350d!2sGriya%20Kanzu%20Klaten!5e0!3m2!1sid!2sid!4v1693024981386!5m2!1sid!2sid"
-                                frameborder="0" style="width: 100%; height: 270px; border:0; border-radius: 15px;"
-                                allowfullscreen="" aria-hidden="false" tabindex="0">
-                            </iframe>
-                        </div>
+                </div>
+                <div class="col-1" style="margin: -3px; padding: -3px;">
+                </div>
+                <div class="col-5 ">
+                    <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.321183447426!2d110.75041547333399!3d-7.648570075663974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3f03bc557ac3%3A0x899ae1d2aeff350d!2sGriya%20Kanzu%20Klaten!5e0!3m2!1sid!2sid!4v1693024981386!5m2!1sid!2sid"
+                            frameborder="0" style="width: 100%; height: 270px; border:0; border-radius: 15px;"
+                            allowfullscreen="" aria-hidden="false" tabindex="0">
+                        </iframe>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- akhir dekstop -->
-        <!-- mobile -->
-        <div class="d-md-none">
-            <div class="card p-3 mb-3 mt-1 bg-ffc448 rounded-10">
-                <div class="row align-items-center">
-                    <div class="col-12 pt-3">
-                        <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
-                            <p class="mb-2">My office:</p>
-                            <h3 class="fw-bold">Kec. Juwiring, Wonosari, Delanggu, Ceper</h3>
-                            <hr class="w-100">
-                            <p class="mb-2">Call me:</p>
-                            <h3 class="fw-bold">+62 8767 6789 652</h3>
-                            <hr class="w-100">
-                            <p class="mb-2">Mail me:</p>
-                            <h3 class="fw-bold">hibba@teman-hibba.com</h3>
-                        </div>
+    </div>
+    <!-- akhir dekstop -->
+    <!-- mobile -->
+    <div class="d-md-none">
+        <div class="card p-3 mb-3 mt-1 bg-ffc448 rounded-10">
+            <div class="row align-items-center">
+                <div class="col-12 pt-3">
+                    <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="mb-2">My office:</p>
+                        <h3 class="fw-bold">Kec. Juwiring, Wonosari, Delanggu, Ceper</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Call me:</p>
+                        <h3 class="fw-bold">+62 8767 6789 652</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Mail me:</p>
+                        <h3 class="fw-bold">hibba@teman-hibba.com</h3>
                     </div>
-                    <div class="col-12">
-                        <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.321183447426!2d110.75041547333399!3d-7.648570075663974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3f03bc557ac3%3A0x899ae1d2aeff350d!2sGriya%20Kanzu%20Klaten!5e0!3m2!1sid!2sid!4v1693024981386!5m2!1sid!2sid"
-                                frameborder="0" style="width: 100%; height: 270px; border:0; border-radius: 15px;"
-                                allowfullscreen="" aria-hidden="false" tabindex="0">
-                            </iframe>
-                        </div>
+                </div>
+                <div class="col-12">
+                    <div class="container-sm p-0 m-0 px-0 wow fadeInUp" data-wow-delay="0.1s">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.321183447426!2d110.75041547333399!3d-7.648570075663974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3f03bc557ac3%3A0x899ae1d2aeff350d!2sGriya%20Kanzu%20Klaten!5e0!3m2!1sid!2sid!4v1693024981386!5m2!1sid!2sid"
+                            frameborder="0" style="width: 100%; height: 270px; border:0; border-radius: 15px;"
+                            allowfullscreen="" aria-hidden="false" tabindex="0">
+                        </iframe>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- akhir mobile -->
-        <!-- Map End -->
+    </div>
+    <!-- akhir mobile -->
+    <!-- Map End -->
 
-        <!-- Copyright Start -->
-        <div class="container-fluid bg-dark text-white py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom text-secondary" href="#">teman-hibba.com</a>, All Right
-                        Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <a class="border-bottom text-secondary"> DAPIL 4 KABUPATEN KLATEN</a>
-                    </div>
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom text-secondary" href="#">teman-hibba.com</a>, All Right
+                    Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a class="border-bottom text-secondary"> DAPIL 4 KABUPATEN KLATEN</a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Copyright End -->
 
@@ -838,6 +862,7 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
@@ -850,6 +875,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
