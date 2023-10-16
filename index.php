@@ -32,6 +32,16 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<style>
+.loader {
+    display: none;
+    width: 105px;
+    height: 20px;
+    padding: 5px 0 10px 0;
+    background: url(mail/loading.gif) no-repeat center center;
+}
+</style>
+
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <!-- Spinner Start -->
@@ -97,7 +107,7 @@
                                 <span
                                     style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -1%); border-radius: 50%; width: 100px; height: 100px; background-color: white;"></span>
                                 <h1 class="display-2"
-                                    style="position: relative; z-index: 0; margin: -2px; bottom: 15px; color: white;">
+                                    style="position: relative; z-index: 0; margin: -2px; bottom: 15px;">
                                     03
                                 </h1>
                             </p>
@@ -144,10 +154,10 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <!-- <h5 style="margin-left: 32px;">Nomer Urut</h5> -->
+                    <h5 style="margin-left: 32px;">Nomer Urut</h5>
                     <div class="d-flex align-items-center mb-5">
                         <div class="years flex-shrink-0 text-center me-4">
-                            <!-- <h3 class="display-1 mb-0" style="color: orange;">03</h3> -->
+                            <h3 class="display-1 mb-0" style="color: orange;">03</h3>
                         </div>
                         <h3 class="lh-base mb-0"><strong>Siap Berjuang </strong> demi Aspirasi Masyarakat Kabupaten
                             Klaten</h3>
@@ -735,11 +745,11 @@
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <p class="mb-0">Tulis Aspirasimu .</p>
                     <p class="mb-4">Aspirasi anda sangat berarti bagi kami dan Kabupaten klaten .</p>
-                    <form id="emailForm" method="post" action="send-email.php">
+                    <form id="contact_form">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Nama">
+                                    <input type="text" class="form-control" id="fname" name="fname" placeholder="Nama">
                                     <label for="name">Nama</label>
                                 </div>
                             </div>
@@ -765,10 +775,11 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-secondary py-3 px-5" type="submit">Kirim
-                                    Aspirasi</button>
+                                <input class="btn btn-secondary py-3 px-5" type="submit" id="submit" name="send" value="Kirim Aspirasi"></input>
+                                <span id="loader" class="loader"></span>
                             </div>
                         </div>
+                        <span id="response"></span>
                     </form>
                 </div>
             </div>
@@ -858,10 +869,11 @@
 
 
     <!-- Back to Top -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="submission.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
