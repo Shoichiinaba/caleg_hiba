@@ -635,6 +635,8 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-lg-1 col-md-1 wow fadeInUp" data-wow-delay="0.3s">
+                    </div>
                     <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
                         <h5 class="text-black mb-4" data-aos="fade-up">Cara Pertama</h5>
                         <div>
@@ -646,8 +648,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-
+                    <div class="col-lg-1 col-md-1 wow fadeInUp" data-wow-delay="0.3s">
                     </div>
                     <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
                         <h5 class="text-black mb-4" data-aos="fade-up">Cara Kedua</h5>
@@ -659,6 +660,8 @@
                                 <img class="img-thumbnail img-fluid" src="img/pemilih/coblos21.png" alt="">
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1 wow fadeInUp" data-wow-delay="0.3s">
                     </div>
                 </div>
                 <!-- akhir tes -->
@@ -696,7 +699,6 @@
                     </div>
                     <di class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h5 class="text-black mb-4" data-aos="fade-up">BERITA TERBARU</h5>
-                        <!-- tes -->
                         <div style="max-height: 28rem; overflow: overlay;">
                             <div class="team-item position-relative mb-3 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="image-overlay"></div>
@@ -750,7 +752,6 @@
                             </div>
                         </div>
                 </div>
-                <!-- akhir tes -->
             </div>
         </div>
     </div>

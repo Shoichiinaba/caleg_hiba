@@ -1,7 +1,11 @@
 <?php
 $servername = "localhost";
+// development
 $username = "root";
 $password = "";
+// production
+// $username = "kina3126_teman-hibba";
+// $password = "kanpa2020";
 $dbname = "kina3126_teman-hibba";
 
 // Membuat koneksi database

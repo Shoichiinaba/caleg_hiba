@@ -2,24 +2,6 @@
 
 require('koneksi.php');
 
-if (isset($_POST['button'])) {
-
-    $subject = $conn->real_escape_string($_POST['subject']);
-    $fname = $conn->real_escape_string($_POST['fname']);
-    $email = $conn->real_escape_string($_POST['email']);
-    $message = $conn->real_escape_string($_POST['message']);
-
-
-    $sql = "INSERT INTO aspirasi (nama, email, subject, aspirasi) VALUES ('$fname', '$email', '$subject', '$message')";
-
-    if ($conn->query($sql) === TRUE) {
-
-        echo "Data berhasil Terkirim. ";
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-}
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = $_POST["subject"];
     $fname = $_POST["fname"];
@@ -31,8 +13,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = "root";
     $password = "";
     // production
-    $username = "root";
-    $password = "";
+    // $username = "root";
+    // $password = "";
 
     $dbname = "kina3126_teman-hibba";
 
