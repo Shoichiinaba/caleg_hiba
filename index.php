@@ -32,16 +32,6 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-<style>
-.loader {
-    display: none;
-    width: 105px;
-    height: 20px;
-    padding: 5px 0 10px 0;
-    background: url(mail/loading.gif) no-repeat center center;
-}
-</style>
-
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <!-- Spinner Start -->
@@ -636,8 +626,48 @@
         </div>
         <!-- Testimonial End -->
 
+        <!-- cara pemilihan -->
+        <div class="container-xxl py-6 pb-2" id="team">
+            <div class="container">
+                <div class="row g-5 mb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-6">
+                        <h1 class="display-5 mb-0">Cara Memilih </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <h5 class="text-black mb-4" data-aos="fade-up">Cara Pertama</h5>
+                        <div>
+                            <div class="team-item position-relative mb-1 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="image-label">
+                                    <!-- <h5>Rabu, 12 Juli 2023</h5> -->
+                                </div>
+                                <img class="img-thumbnail img-fluid" src="img/pemilih/coblos1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <h5 class="text-black mb-4" data-aos="fade-up">Cara Kedua</h5>
+                        <div>
+                            <div class="team-item position-relative mb-3 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="image-label">
+                                    <!-- <h5>Rabu, 12 Juli 2023</h5> -->
+                                </div>
+                                <img class="img-thumbnail img-fluid" src="img/pemilih/coblos21.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- akhir tes -->
+            </div>
+        </div>
+        <!-- cara pemilihan end-->
+
         <!-- Team Start -->
-        <div class="container-xxl py-6 pb-5" id="team">
+        <div class="container-xxl py-6 pb-5 pt-3" id="team">
             <div class="container">
                 <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-lg-6">
@@ -674,7 +704,7 @@
                                     <h5>Rabu, 12 Juli 2023</h5>
                                 </div>
                                 <img class="img-thumbnail img-fluid" src="img/Umkm.jpg" alt="">
-                                <a href="artikel2.php">
+                                <a href="artikel/artikel2.php">
                                     <div class="team-text bg-white rounded-end p-4">
                                         <div>
                                             <h5>Rabu, 12 Juli 2023 10:40 WIB</h5>
@@ -691,7 +721,7 @@
                                     <h5>Rabu, 16 Juli 2023</h5>
                                 </div>
                                 <img class="img-thumbnail img-fluid" src="img/berpen.jpg" alt="">
-                                <a href="artikel1.php">
+                                <a href="artikel/artikel1.php">
                                     <div class="team-text bg-white rounded-end p-4">
                                         <div>
                                             <h5>Selasa, 16 Juli 2023 10:40 WIB</h5>
@@ -707,7 +737,7 @@
                                     <h5>Selasa, 4 September 2023</h5>
                                 </div>
                                 <img class="img-thumbnail img-fluid" src="img/berkes.jpg" alt="">
-                                <a href="artikel3.php">
+                                <a href="artikel/artikel3.php">
                                     <div class="team-text bg-white rounded-end p-4">
                                         <div>
                                             <h5>Selasa, 4 September 2023 10:40 WIB</h5>
@@ -775,11 +805,12 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <input class="btn btn-secondary py-3 px-5" type="submit" id="submit" name="send" value="Kirim Aspirasi"></input>
-                                <span id="loader" class="loader"></span>
+                                <input class="btn btn-secondary py-3 px-5" type="submit" id="submit" name="send"
+                                    value="Kirim Aspirasi"></input>
                             </div>
                         </div>
-                        <span id="response"></span>
+                        <!-- <span id="response"></span> -->
+                        <div id="response" class="alert alert-success" style="display: none;"></div>
                     </form>
                 </div>
             </div>

@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/golkar.png" rel="icon" type="image/png">
+    <link href="../img/golkar.png" rel="icon" type="image/png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,15 +22,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
@@ -51,36 +50,41 @@
                     <h1 class="display-5 mb-0">Artikel</h1>
                 </div>
                 <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-secondary py-3 px-5" href="index.php">Kembali</a>
+                    <a class="btn btn-secondary py-3 px-5" href="../index.php">Kembali</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h3 class="text-black mb-2" data-aos="fade-up"><strong>Dinas Kesehatan dan Kecamatan Ngawen Juara I
-                            KIP Award Klaten
-                            2023</strong></h3>
+                    <h3 class="text-black mb-2" data-aos="fade-up"><strong>Momentum kebangkitan UMKM seiring turunnya
+                            angka kemiskinan</strong></h3>
                     <h5 class="text-black mb-4" data-aos="fade-up">Rabu, 03 Mei 2023 10:40 WIB</h5>
                     <div class="team-item position-relative mb-3 img-thumbnail img-fluid">
                         <div class="ratio ratio-16x9 fadeInUp" width="640" height="400" data-wow-delay="0.4s">
-                            <img class="img-thumbnail img-fluid" src="img/berkes.jpg" alt="">
+                            <img class="img-thumbnail img-fluid" src="../img/Umkm.jpg" alt="">
                         </div>
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <span>Solopos.com, KLATEN — Sebanyak 12 badan publik di Kabupaten Klaten memperoleh
-                                    penghargaan keterbukaan informasi publik atau KIP Award Klaten 2023. Belasan badan
-                                    publik itu dinilai masuk kategori informatif dari hasil penilaian pemeringkatan.
+                                <span>Memasuki Tahun Baru 2023, Kabupaten Klaten menyambut baik
+                                    pencabutan kebijakan PPKM.
+                                    Pemkab Klaten berharap pencabutan PPKM segera disambut dengan bangkitnya
+                                    sektor usaha kecil mikro dan menengah (UMKM).
+                                    "Dua tahun lebih kita merasakan bagaimana dihantam dengan COVID-19, tahun 2023
+                                    PPKM
+                                    dicabut oleh Bapak Presiden. Semoga dengan PPKM tentunya UMKM bangkit dan
+                                    perekonomian menjadi lebih kuat," ungkap Bupati Klaten, Sri Mulyani kepada
+                                    wartawan,
+                                    Minggu (1/1/2023).<br><br>
 
-                                    Pengumuman dan penyerahan penghargaan KIP Award Klaten 2023 digelar di sela pentas
-                                    wayang kulit di Alun-alun Klaten, Jumat (1/9/2023) malam. Penghargaan diserahkan
-                                    langsung oleh Bupati Klaten, Sri Mulyani.
-
-
-                                    Baca artikel Solopos.com "Mantap! Dinas Kesehatan dan Kecamatan Ngawen Juara I KIP
-                                    Award Klaten 2023"
-                                    <a href="https://soloraya.solopos.com/mantap-dinas-kesehatan-dan-kecamatan-ngawen-juara-i-kip-award-klaten-2023-1731558"
-                                        target="_blank">
-                                        Berita selengkapnya
-                                    </a>
+                                    Sri Mulyani berharap semua lebih baik di tahun 2023. Pemkab Klaten akan terus
+                                    bekerja keras memajukan dan menyejahterakan masyarakat.<br>
+                                    <p>
+                                        Baca artikel detikjateng, "Momentum Kebangkitan UMKM Klaten Seiring Turunnya
+                                        Angka
+                                        Kemiskinan.
+                                        <a href="https://www.detik.com/jateng/berita/d-6493581/momentum-kebangkitan-umkm-klaten-seiring-turunnya-angka-kemiskinan"
+                                            target="_blank">
+                                            Berita selengkapnya</a>
+                                    </p>
                                 </span>
                             </div>
                         </div>
@@ -90,12 +94,6 @@
                     <h5 class="text-black mt-5 pt-5" data-aos="fade-up">Berita Lainnya</h5>
                     <hr>
                     <div class="col-lg-12 mt-4 mt-lg-0" data-aos="fade-up">
-                        <a href="artikel3.php">
-                            <h6 class="text-dark">Dinas Kesehatan dan Kecamatan Ngawen Juara I KIP Award Klaten
-                                2023</h6>
-                            <div class="small">Selasa, 16 Juli 2023 </div>
-                        </a>
-                        <hr>
                         <a href="artikel1.php">
                             <h6 class="text-dark">Bupati Klaten Minta Guru Harus Berinovasi
                                 Sesuai Zaman</h6>
@@ -108,6 +106,12 @@
                             <div class="small">Selasa, 16 Juli 2023 </div>
                         </a>
                         <hr>
+                        <a href="artikel3.php">
+                            <h6 class="text-dark">Dinas Kesehatan dan Kecamatan Ngawen Juara I KIP Award Klaten
+                                2023</h6>
+                            <div class="small">Selasa, 16 Juli 2023 </div>
+                        </a>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -117,6 +121,7 @@
     <!-- konten artikel End -->
 
     <!-- Copyright Start -->
+    <br><br><br><br><br>
     <div class="container-fluid bg-dark text-white py-4">
         <div class="container">
             <div class="row">
@@ -140,17 +145,17 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/typed/typed.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

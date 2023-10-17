@@ -22,15 +22,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
@@ -51,30 +51,36 @@
                     <h1 class="display-5 mb-0">Artikel</h1>
                 </div>
                 <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-secondary py-3 px-5" href="index.php">Kembali</a>
+                    <a class="btn btn-secondary py-3 px-5" href="../index.php">Kembali</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h3 class="text-black mb-2" data-aos="fade-up"><strong>Bupati Klaten Minta Guru Harus Berinovasi
-                            Sesuai Zaman</strong></h3>
-                    <h5 class="text-black mb-4" data-aos="fade-up">Selasa, 16 Juli 2023 10:40 WIB</h5>
+                    <h3 class="text-black mb-2" data-aos="fade-up"><strong>Dinas Kesehatan dan Kecamatan Ngawen Juara I
+                            KIP Award Klaten
+                            2023</strong></h3>
+                    <h5 class="text-black mb-4" data-aos="fade-up">Rabu, 03 Mei 2023 10:40 WIB</h5>
                     <div class="team-item position-relative mb-3 img-thumbnail img-fluid">
                         <div class="ratio ratio-16x9 fadeInUp" width="640" height="400" data-wow-delay="0.4s">
-                            <img class="img-thumbnail img-fluid" src="img/berpen.jpg" alt="">
+                            <img class="img-thumbnail img-fluid" src="../img/berkes.jpg" alt="">
                         </div>
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <span>“Perubahan kurikulum pembelajaran dari tahun ke tahun sebenarnya adalah terobosan
-                                    supaya pendidikan di Indonesia tidak ketinggalan jaman, namun tetap tidak
-                                    meninggalkan nilai luhur pancasila,” katanya.<br><br>
-                                    Bupati mengatakan, profil pelajar Pancasila merupakan karakter yang harus dibentuk
-                                    dan diwujudkan dalam kurikulum merdeka. Ini sangat relevan dalam pencapaian
-                                    pembelajaran dan kurikulum di Indonesia yaitu sejalan dengan upaya menumbuhkan
-                                    nilai-nilai budaya Indonesia dan pancasila.<br>
-                                    <a href="https://jatengprov.go.id/beritadaerah/bupati-klaten-minta-guru-harus-berinovasi-sesuai-zaman/"
+                                <span>Solopos.com, KLATEN — Sebanyak 12 badan publik di Kabupaten Klaten memperoleh
+                                    penghargaan keterbukaan informasi publik atau KIP Award Klaten 2023. Belasan badan
+                                    publik itu dinilai masuk kategori informatif dari hasil penilaian pemeringkatan.
+
+                                    Pengumuman dan penyerahan penghargaan KIP Award Klaten 2023 digelar di sela pentas
+                                    wayang kulit di Alun-alun Klaten, Jumat (1/9/2023) malam. Penghargaan diserahkan
+                                    langsung oleh Bupati Klaten, Sri Mulyani.
+
+
+                                    Baca artikel Solopos.com "Mantap! Dinas Kesehatan dan Kecamatan Ngawen Juara I KIP
+                                    Award Klaten 2023"
+                                    <a href="https://soloraya.solopos.com/mantap-dinas-kesehatan-dan-kecamatan-ngawen-juara-i-kip-award-klaten-2023-1731558"
                                         target="_blank">
-                                        Berita selengkapnya</a>
+                                        Berita selengkapnya
+                                    </a>
                                 </span>
                             </div>
                         </div>
@@ -84,21 +90,21 @@
                     <h5 class="text-black mt-5 pt-5" data-aos="fade-up">Berita Lainnya</h5>
                     <hr>
                     <div class="col-lg-12 mt-4 mt-lg-0" data-aos="fade-up">
+                        <a href="artikel3.php">
+                            <h6 class="text-dark">Dinas Kesehatan dan Kecamatan Ngawen Juara I KIP Award Klaten
+                                2023</h6>
+                            <div class="small">Selasa, 16 Juli 2023 </div>
+                        </a>
+                        <hr>
                         <a href="artikel1.php">
                             <h6 class="text-dark">Bupati Klaten Minta Guru Harus Berinovasi
                                 Sesuai Zaman</h6>
-                            <div class="small">Selasa, 16 Juli 2023</div>
+                            <div class="small">Rabu, 03 Mei 2023 </div>
                         </a>
                         <hr>
                         <a href="artikel2.php">
                             <h6 class="text-dark">Momentum Kebangkitan UMKM Seiring Turunnya
                                 angka Kemiskinan</h6>
-                            <div class="small">Rabu, 03 Mei 2023 </div>
-                        </a>
-                        <hr>
-                        <a href="artikel3.php">
-                            <h6 class="text-dark">Dinas Kesehatan dan Kecamatan Ngawen Juara I KIP Award Klaten
-                                2023</h6>
                             <div class="small">Selasa, 16 Juli 2023 </div>
                         </a>
                         <hr>
@@ -111,6 +117,7 @@
     <!-- konten artikel End -->
 
     <!-- Copyright Start -->
+    <br><br><br><br><br>
     <div class="container-fluid bg-dark text-white py-4">
         <div class="container">
             <div class="row">
@@ -128,23 +135,23 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
 
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/typed/typed.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
