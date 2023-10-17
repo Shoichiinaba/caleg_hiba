@@ -7,14 +7,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fname = $_POST["fname"];
     $email = $_POST["email"];
     $message = $_POST["message"];
+    $currentDate = date("d-m-Y");
 
     $servername = "localhost";
     // development
-    $username = "root";
-    $password = "";
-    // production
     // $username = "root";
     // $password = "";
+    // production
+    $username = "kina3126_teman-hibba";
+    $password = "kanpa2020";
 
     $dbname = "kina3126_teman-hibba";
 
@@ -24,10 +25,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Koneksi database gagal: " . $conn->connect_error);
     }
 
-    $sql = "INSERT INTO aspirasi (subject, nama, email, aspirasi) VALUES ('$subject', '$fname', '$email', '$message')";
+    $sql = "INSERT INTO aspirasi (subject, nama, email, aspirasi, tgl_buat) VALUES ('$subject', '$fname', '$email', '$message', '$currentDate')";
 
     if ($conn->query($sql) === TRUE) {
-        echo " Dan Data Sudah Kami Terima....!";
+        echo " Data Berhasil Terkirim Terimakasih....!";
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
