@@ -5,12 +5,9 @@
             <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">
                 Copyright © <span id="currentYear"></span>
                 made with <i class="fa fa-heart"></i> by
-                <a href="https://hi-care.id/" class="font-weight-bold" target="_blank">Hi-care ( V.01.00 Stable
+                <a href="https://teman-hibba.com/" class="font-weight-bold" target="_blank">Teman Hibba ( V.01.00 Stable
                     )</a>
                 . All rights reserved.
-            </span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
-                <a href="https://kanpa.co.id/" class="font-weight-bold" target="_blank">Supported by Kanpa.co.id</a>
             </span>
         </div>
     </footer>

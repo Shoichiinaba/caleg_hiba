@@ -638,7 +638,6 @@
                     <div class="col-lg-1 col-md-1 wow fadeInUp" data-wow-delay="0.3s">
                     </div>
                     <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <h5 class="text-black mb-4" data-aos="fade-up">Cara Pertama</h5>
                         <div>
                             <div class="team-item position-relative mb-1 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="image-label">
@@ -651,13 +650,12 @@
                     <div class="col-lg-1 col-md-1 wow fadeInUp" data-wow-delay="0.3s">
                     </div>
                     <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <h5 class="text-black mb-4" data-aos="fade-up">Cara Kedua</h5>
                         <div>
                             <div class="team-item position-relative mb-3 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="image-label">
                                     <!-- <h5>Rabu, 12 Juli 2023</h5> -->
                                 </div>
-                                <img class="img-thumbnail img-fluid" src="img/pemilih/coblos21.png" alt="">
+                                <img class="img-thumbnail img-fluid" src="img/pemilih/coblos2.png" alt="">
                             </div>
                         </div>
                     </div>

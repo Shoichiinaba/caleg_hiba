@@ -57,4 +57,13 @@ class Aspirasi_M extends CI_Model
         $sql = "DELETE  FROM aspirasi WHERE id = ? ";
         return $this->db->query($sql, $params);
     }
+
+    // dashboard
+    function jumlah_asp()
+    {
+		$this->db->select('aspirasi.id, COUNT(*) as jumlah_record');
+		$this->db->from('aspirasi');
+		return $this->db->count_all_results();
+    }
+    // dashboard end
 }
